@@ -101,12 +101,10 @@ include "../coneccion.php";
 
     }
 
-    $query_configuracioin = mysqli_query($conection, "SELECT * FROM configuraciones ");
-    $result_configuracion = mysqli_fetch_array($query_configuracioin);
-    $ambito_area          =  $result_configuracion['ambito'];
+    $protocol = empty($_SERVER['HTTPS']) ? 'http://' : 'https://';$domain = $_SERVER['HTTP_HOST'];$url = $protocol . $domain;
 
-    if ($ambito_area == 'prueba') {
-         $direccion_ip =  '186.42.10.236';
+    if ($url =='http://localhost') {
+      $direccion_ip =  '186.42.10.32';
     }else {
       $direccion_ip = (getRealIP());
     }
@@ -146,7 +144,7 @@ include "../coneccion.php";
                                                           <div class="media-body row">
                                                               <div class="col-lg-12">
                                                                   <div class="user-title">
-                                                                      <h2><?php echo $nombres ?> <?php echo $apellidos ?></h2>
+                                                                      <h2><?php echo $nombres ?> </h2>
                                                                   </div>
                                                               </div>
                                                               <div>
@@ -237,12 +235,7 @@ include "../coneccion.php";
                                                                                                   </th>
                                                                                                   <td class="result_nombres"  ><?php echo $nombres ?></td>
                                                                                               </tr>
-                                                                                              <tr>
-                                                                                                  <th scope="row" class="editar_apellidos"  apellidos= "<?php echo $apellidos ?>">
-                                                                                                      Apellidos
-                                                                                                  </th>
-                                                                                                  <td class="result_apellidos"><?php echo $apellidos ?></td>
-                                                                                              </tr>
+
                                                                                               <tr>
                                                                                                   <th scope="row" class="editar_identificacion"  identificacion= "<?php echo $numero_identidad ?>">
                                                                                                       Identificación
@@ -256,15 +249,6 @@ include "../coneccion.php";
                                                                                                   <td><?php echo $fecha ?></td>
                                                                                               </tr>
 
-                                                                                              <?php if (!empty($fecha_caducidad_firma)): ?>
-                                                                                                <tr>
-                                                                                                    <th scope="row">
-                                                                                                      Caducidad de la Firma Electrónica
-                                                                                                    </th>
-                                                                                                    <td><?php echo $fecha_caducidad_firma ?></td>
-                                                                                                </tr>
-
-                                                                                              <?php endif; ?>
 
 
                                                                                               <tr>
@@ -324,7 +308,7 @@ include "../coneccion.php";
                                                                                       </button>
                                                                                     </div>
                                                                                     <div class="modal-body">
-                                                                                      <form style="text-align: center;" class="" method="post" name="cambiar_contrasna" id="cambiar_contrasna" onsubmit="event.preventDefault(); sendDataedit_cambio_password_fc();">
+                                                                                      <form  class="" method="post" name="cambiar_contrasna" id="cambiar_contrasna" onsubmit="event.preventDefault(); sendDataedit_cambio_password_fc();">
                                                                                         <div class="form-group">
                                                                                           <label for="exampleInputPassword1">Ingresa tu atual Contraseña</label>
                                                                                           <input type="password" name="contrasena_actual" class="form-control" id="exampleInputPassword1" placeholder="Password">
@@ -342,6 +326,11 @@ include "../coneccion.php";
                                                                                           <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                                                                           <button type="submit" class="btn btn-primary">Cambiar de Contraseña</button>
                                                                                         </div>
+                                                                                        <style media="screen">
+                                                                                          .notificacion_contyrasena{
+                                                                                            text-align: center;
+                                                                                          }
+                                                                                        </style>
                                                                                         <div class="notificacion_contyrasena">
 
                                                                                         </div>
@@ -438,86 +427,10 @@ include "../coneccion.php";
 
                                                       </div>
                                                   </div>
-                                                  <div class="row">
-                                                      <div class="col-lg-12">
-                                                          <div class="card">
-                                                            <form   method="post" name="add_descripcion" id="add_descripcion" onsubmit="event.preventDefault(); sendData_descripcion();">
-                                                              <div class="card-header">
-                                                                  <h5 class="card-header-text">Descripción</h5>
-                                                                  <button id="edit-info-btn" type="button" class="btn btn-sm btn-primary waves-effect waves-light f-right">
-                                                                      <i class="icofont icofont-edit"></i>
-                                                                  </button>
-                                                              </div>
-                                                              <div class="card-block user-desc">
-                                                                  <div class="view-desc">
-                                                      <textarea class="descripcion_int" name="descripcion" style="width: 100%;"><?php echo $descripcion_usuerio ?></textarea>
-
-                                                                  </div>
-                                                                  <div class="edit-desc">
-                                                                      <div class="text-center">
-                                                                        <input type="hidden" name="action" value="agregar_descripcion">
-                                                                          <button type="submit" class="btn btn-primary">Guardar Descripción</button>
-                                                                      </div>
-                                                                  </div>
-                                                                  <div class="notificacion_agregar_descripcion">
-
-                                                                  </div>
-                                                              </div>
-                                                            </form>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-
-
-                                                  <div class="row">
-                                                      <div class="col-lg-12">
-                                                          <div class="card">
-                                                            <form class="" action="" method="post" name="agregar_ubicacion" id="agregar_ubicacion" onsubmit="event.preventDefault(); sendData_agregar_facebook();">
-                                                              <div class="notificacion_mapa_existente">
-                                                                <?php if ($longitud !=''): ?>
-                                                                  <div class="alert alert-success background-success">
-                                                                  <strong>Ya tienes un mapa guardado!</strong>
-                                                                  </div>
-
-                                                                  <p style="padding: 10px;">Activa de nuevo tu ubicación para que puedas editar tu ubicación  <button  type="button" class="btn btn-success activar_mi_ubicacion">Activar y Editar  mi ubicación</button></p>
-
-
-                                                                <?php endif; ?>
-
-                                                                <?php if ($longitud ==''): ?>
-                                                                  <div class="alert alert-danger background-danger">
-                                                                  <strong>No  tienes un mapa guardado, el mapa que se muestra es un mapa de ejemplo!</strong>
-                                                                  </div>
-
-                                                                  <p style="padding: 10px;">Activa tu ubicación para que puedas guardar tu ubicación  <button  type="button" class="btn btn-success activar_mi_ubicacion">Activar y Agregar  mi ubicación</button></p>
 
 
 
-                                                                <?php endif; ?>
 
-
-
-                                                              </div>
-                                                              <div class="" style="padding: 10px;">
-                                                                <div class="alert alert-success" role="alert">
-                                                                  Agrega tu ubicación para que aparezca un mapa en tu perfil!
-                                                                </div>
-
-                                                              </div>
-                                                              <div class="mapa_vizualizar" style="padding: 10px;margin: 15px;">
-                                                                  <div id="myMap" style="height:200px"></div>
-
-                                                              </div>
-
-                                                               <input type="hidden" name="action" value="agregar_ubicacion">
-
-
-                                                             <div class="notificacion_mapa_agregado">
-                                                             </div>
-                                                           </form>
-                                                          </div>
-                                                      </div>
-                                                  </div>
 
 
 

@@ -6,6 +6,8 @@ use  PHPMailer \ PHPMailer \ PHPMailer ;
 use  PHPMailer \ PHPMailer \ Exception ;
 // La instanciación y el paso de `true` habilita excepciones
 
+$mail = new  PHPMailer ( true );
+
 session_start();
 
 
@@ -20,26 +22,7 @@ session_start();
 
     }
 
-    if ($_SESSION['rol'] == 'cuenta_usuario_venta') {
-    include "../sessiones/session_cuenta_usuario_venta.php";
 
-    }
-
-    if ($_SESSION['rol'] == 'Mesero') {
-    include "../sessiones/session_cuenta_mesero.php";
-
-    }
-
-    if ($_SESSION['rol'] == 'Cocina') {
-    include "../sessiones/session_cuenta_cocina.php";
-    }
-
-
-
-
-  $query_configuracioin = mysqli_query($conection, "SELECT * FROM configuraciones ");
-  $result_configuracion = mysqli_fetch_array($query_configuracioin);
-  $ambito_area          =  $result_configuracion['ambito'];
   function getRealIP(){
           if (isset($_SERVER["HTTP_CLIENT_IP"])){
               return $_SERVER["HTTP_CLIENT_IP"];
@@ -62,13 +45,13 @@ session_start();
       }
 
 
-       if ($ambito_area =='prueba') {
-         $direccion_ip =  '186.42.10.78';
-       }
-       if ($ambito_area =='produccion') {
-         $direccion_ip = (getRealIP());
-         // code...
-       }
+      $protocol = empty($_SERVER['HTTPS']) ? 'http://' : 'https://';$domain = $_SERVER['HTTP_HOST'];$url = $protocol . $domain;
+
+      if ($url =='http://localhost') {
+        $direccion_ip =  '186.42.10.32';
+      }else {
+        $direccion_ip = (getRealIP());
+      }
        $datos = unserialize(file_get_contents('http://ip-api.com/php/'.$direccion_ip.''));
 
 
@@ -100,26 +83,39 @@ session_start();
 
     $protocol = empty($_SERVER['HTTPS']) ? 'http://' : 'https://';$domain = $_SERVER['HTTP_HOST'];$url = $protocol . $domain;
 
-        $apellidos  = $result['apellidos'];
+
         $nombres    = $result['nombres'];
         $iduser     = $result['id'];
         $query_insert=mysqli_query($conection,"UPDATE usuarios SET  password='$new_contrasena' WHERE id='$iduser' ");
+
+
         if ($query_insert) {
+
+          $query_correo_registro= mysqli_query($conection, "SELECT * FROM credenciales_correos  WHERE area = 'registro'");
+          $data_correo_registro = mysqli_fetch_array($query_correo_registro);
+
+          $Host_registro        = $data_correo_registro['Host'];
+          $Username_registro    = $data_correo_registro['Username'];
+          $Password_registro    = $data_correo_registro['Password'];
+          $Port_registro        = $data_correo_registro['Port'];
+          $SMTPSecure_registro  = $data_correo_registro['SMTPSecure'];
+
+
                   try {
                        // Configuración del servidor
                       $mail -> SMTPDebug = 0;                                      // Habilita la salida de depuración detallada
                       $mail -> isSMTP ();                                          // Enviar usando SMTP
-                      $mail -> Host        = 'mail.guibis.com' ;                  // Configure el servidor SMTP para enviar a través de
+                      $mail -> Host        = "$Host_registro" ;                // Configure el servidor SMTP para enviar a través de
                       $mail -> SMTPAuth    = true ;                                   // Habilita la autenticación SMTP
-                      $mail ->Username = 'soporte-cuenta@guibis.com' ;                    // Nombrede usuario SMTP
-                      $mail ->Password = 'MACAra666_' ;                               // Contraseña SMTP
-                      $mail -> SMTPSecure = 'ssl';         // Habilite el cifrado TLS; Se recomienda `PHPMailer :: ENCRYPTION_SMTPS`
-                      $mail -> Port        = 465 ;                                    // Puerto TCP para conectarse, use 465 para `PHPMailer :: ENCRYPTION_SMTPS` arriba
+                      $mail->Username = "$Username_registro";                   // Nombrede usuario SMTP
+                      $mail->Password = "$Password_registro";                               // Contraseña SMTP
+                      $mail -> SMTPSecure = "$SMTPSecure_registro";          // Habilite el cifrado TLS; Se recomienda `PHPMailer :: ENCRYPTION_SMTPS`
+                      $mail->Port = "$Port_registro";                                        // Puerto TCP para conectarse, use 465 para `PHPMailer :: ENCRYPTION_SMTPS` arriba
 
                       // Destinatarios
-                      $mail -> setFrom ( 'soporte-cuenta@guibis.com' , 'Sistema de Soporte de Contraseña' );
+                      $mail -> setFrom ( $Username_registro , 'Sistema de Soporte de Contraseña' );
                       $mail -> addAddress ( $email_user);     // Agrega un destinatario
-                      $mail -> addAddress ('soporte-cuenta@guibis.com');
+                      $mail -> addAddress ($Username_registro);
 
 
                       // Contenido
@@ -149,13 +145,21 @@ session_start();
 
 
                          ";
-                         $mail -> send ();
-                     } catch ( Exception  $e ) {
+                         if (!$mail->send()) {
+                             // Manejo del caso de fallo en el envío
+                             $response = array('noticia_email' => 'error_envio','noticia' =>'positiva');
+                             echo json_encode($response, JSON_UNESCAPED_UNICODE);
+                         } else {
+                             // Manejo del caso de éxito en el envío
+                             $response = array('noticia_email' => 'envio_exitoso','noticia' =>'positiva');
+                             echo json_encode($response, JSON_UNESCAPED_UNICODE);
+                         }
+                     } catch (Exception $e) {
+                         // Manejo de una excepción durante la configuración o el envío
+                         $response = array('noticia_email' => 'error_excepcion','noticia' =>'positiva','detalle' => 'Ocurrió un error al intentar enviar el correo','error' => $e->getMessage());
+                         echo json_encode($response, JSON_UNESCAPED_UNICODE);
                      }
 
-
-           $arrayName = array('noticia' =>'positiva' );
-          echo json_encode($arrayName,JSON_UNESCAPED_UNICODE);
 
 
 
