@@ -115,7 +115,6 @@ $fecha_actual =  date("Y-m-d H:i:s");
 
   $queryu = mysqli_query($conection, "SELECT * FROM usuarios  WHERE id = '$iduser'");
   $resultu = mysqli_fetch_array($queryu);
-  $apellidos_usuario = $resultu['apellidos'];
   $nombres_usuario   = $resultu['nombres'];
   $email_usuario     = $resultu['email'];
 
@@ -125,17 +124,17 @@ $fecha_actual =  date("Y-m-d H:i:s");
       // Configuración del servidor
       $mail -> SMTPDebug = 0;                                      // Habilita la salida de depuración detallada
       $mail -> isSMTP ();                                          // Enviar usando SMTP
-      $mail -> Host        = 'mail.guibis.com' ;                  // Configure el servidor SMTP para enviar a través de
+      $mail -> Host        = 'cwpjava.hostingsupremo.org' ;                  // Configure el servidor SMTP para enviar a través de
       $mail -> SMTPAuth    = true ;                                   // Habilita la autenticación SMTP
-      $mail ->Username = 'soporte@guibis.com' ;                    // Nombrede usuario SMTP
-      $mail ->Password = 'NK6)&HY}V9B^Q)So;k2a' ;                               // Contraseña SMTP
+      $mail ->Username = 'soporte@ecuacompus.com' ;                    // Nombrede usuario SMTP
+      $mail ->Password = 'GgNtpdLyK4T' ;                               // Contraseña SMTP
       $mail -> SMTPSecure = 'ssl';         // Habilite el cifrado TLS; Se recomienda `PHPMailer :: ENCRYPTION_SMTPS`
       $mail -> Port        = 465 ;                                     // Puerto TCP para conectarse, use 465 para `PHPMailer :: ENCRYPTION_SMTPS` arriba
 
       // Destinatarios
-      $mail -> setFrom ( 'soporte@guibis.com' , 'Soporte Cuenta' );
+      $mail -> setFrom ( 'soporte@ecuacompus.com' , 'Soporte Cuenta' );
       $mail -> addAddress ($email_usuario);     // Agrega un destinatario
-      $mail -> addAddress ('soporte@guibis.com');     // Agrega un destinatario
+      $mail -> addAddress ('soporte@ecuacompus.com');     // Agrega un destinatario
 
       // Contenido
       $mail -> isHTML ( true );                                  // Establecer el formato de correo electrónico en HTML
@@ -150,7 +149,7 @@ $fecha_actual =  date("Y-m-d H:i:s");
           <div class="contenedor-informacion" style="text-align: justify;">
           <div class="">
           <div class="">
-              <p>¡<span>'.$apellidos_usuario.' '.$apellidos_usuario.'</span> se ha detectado un inicio de sesión no exitoso en nuestro sitio!</p>
+              <p>¡<span>'.$apellidos_usuario.' </span> se ha detectado un inicio de sesión no exitoso en nuestro sitio!</p>
               <!-- Tabla de Información del Usuario -->
               <table style="width: 99%;border-collapse: collapse;margin-top: 20px; margin-left: auto; margin-right: auto;">
                   <tr>
@@ -184,7 +183,7 @@ $fecha_actual =  date("Y-m-d H:i:s");
               </table>
               <div class="" style="color: #c1c1c1;padding: 10px;margin: 10px;">
                 <p>Este mensaje se envio en automático, no respondas a este mensaje, para cualquier duda te presentamos nuestras lineas directas correo:
-                   soporte@guibis.com Teléfono: +593998855160 </p>
+                   soporte@ecuacompus.com Teléfono: +593998855160 </p>
               </div>
           </div>
           </div>
@@ -204,17 +203,17 @@ $fecha_actual =  date("Y-m-d H:i:s");
       // Configuración del servidor
       $mail -> SMTPDebug = 0;                                      // Habilita la salida de depuración detallada
       $mail -> isSMTP ();                                          // Enviar usando SMTP
-      $mail -> Host        = 'mail.guibis.com' ;                  // Configure el servidor SMTP para enviar a través de
+      $mail -> Host        = 'cwpjava.hostingsupremo.org' ;                  // Configure el servidor SMTP para enviar a través de
       $mail -> SMTPAuth    = true ;                                   // Habilita la autenticación SMTP
-      $mail ->Username = 'soporte@guibis.com' ;                    // Nombrede usuario SMTP
-      $mail ->Password = 'NK6)&HY}V9B^Q)So;k2a' ;                               // Contraseña SMTP
+      $mail ->Username = 'soporte@ecuacompus.com' ;                    // Nombrede usuario SMTP
+      $mail ->Password = 'GgNtpdLyK4T' ;                               // Contraseña SMTP
       $mail -> SMTPSecure = 'ssl';         // Habilite el cifrado TLS; Se recomienda `PHPMailer :: ENCRYPTION_SMTPS`
       $mail -> Port        = 465 ;                                     // Puerto TCP para conectarse, use 465 para `PHPMailer :: ENCRYPTION_SMTPS` arriba
 
       // Destinatarios
-      $mail -> setFrom ( 'soporte@guibis.com' , 'Soporte de Cuentas' );
+      $mail -> setFrom ( 'soporte@ecuacompus.com' , 'Soporte de Cuentas' );
       $mail -> addAddress ($email_usuario);     // Agrega un destinatario
-      $mail -> addAddress ('soporte@guibis.com');     // Agrega un destinatario
+      $mail -> addAddress ('soporte@ecuacompus.com');     // Agrega un destinatario
 
       // Contenido
       $mail -> isHTML ( true );                                  // Establecer el formato de correo electrónico en HTML
@@ -263,7 +262,7 @@ $fecha_actual =  date("Y-m-d H:i:s");
               </table>
               <div class="" style="color: #c1c1c1;padding: 10px;margin: 10px;">
                 <p>Este mensaje se envio en automático, no respondas a este mensaje, para cualquier duda te presentamos nuestras lineas directas correo:
-                   soporte@guibis.com Teléfono: +593998855160 </p>
+                   soporte@ecuacompus.com Teléfono: +593998855160 </p>
               </div>
           </div>
           </div>
@@ -284,17 +283,17 @@ $fecha_actual =  date("Y-m-d H:i:s");
       // Configuración del servidor
       $mail -> SMTPDebug = 0;                                      // Habilita la salida de depuración detallada
       $mail -> isSMTP ();                                          // Enviar usando SMTP
-      $mail -> Host        = 'mail.guibis.com' ;                  // Configure el servidor SMTP para enviar a través de
+      $mail -> Host        = 'cwpjava.hostingsupremo.org' ;                  // Configure el servidor SMTP para enviar a través de
       $mail -> SMTPAuth    = true ;                                   // Habilita la autenticación SMTP
-      $mail ->Username = 'soporte@guibis.com' ;                    // Nombrede usuario SMTP
-      $mail ->Password = 'NK6)&HY}V9B^Q)So;k2a' ;                               // Contraseña SMTP
+      $mail ->Username = 'soporte@ecuacompus.com' ;                    // Nombrede usuario SMTP
+      $mail ->Password = 'GgNtpdLyK4T' ;                               // Contraseña SMTP
       $mail -> SMTPSecure = 'ssl';         // Habilite el cifrado TLS; Se recomienda `PHPMailer :: ENCRYPTION_SMTPS`
       $mail -> Port        = 465 ;                                     // Puerto TCP para conectarse, use 465 para `PHPMailer :: ENCRYPTION_SMTPS` arriba
 
       // Destinatarios
-      $mail -> setFrom ( 'soporte@guibis.com' , 'Soporte de Cuentas' );
+      $mail -> setFrom ( 'soporte@ecuacompus.com' , 'Soporte de Cuentas' );
       $mail -> addAddress ($email_usuario);     // Agrega un destinatario
-      $mail -> addAddress ('soporte@guibis.com');     // Agrega un destinatario
+      $mail -> addAddress ('soporte@ecuacompus.com');     // Agrega un destinatario
 
       // Contenido
       $mail -> isHTML ( true );                                  // Establecer el formato de correo electrónico en HTML
@@ -343,7 +342,7 @@ $fecha_actual =  date("Y-m-d H:i:s");
               </table>
               <div class="" style="color: #c1c1c1;padding: 10px;margin: 10px;">
                 <p>Este mensaje se envio en automático, no respondas a este mensaje, para cualquier duda te presentamos nuestras lineas directas correo:
-                   soporte@guibis.com Teléfono: +593998855160 </p>
+                   soporte@ecuacompus.com Teléfono: +593998855160 </p>
               </div>
           </div>
           </div>
@@ -379,17 +378,17 @@ $fecha_actual =  date("Y-m-d H:i:s");
       // Configuración del servidor
       $mail -> SMTPDebug = 0;                                      // Habilita la salida de depuración detallada
       $mail -> isSMTP ();                                          // Enviar usando SMTP
-      $mail -> Host        = 'mail.guibis.com' ;                  // Configure el servidor SMTP para enviar a través de
+      $mail -> Host        = 'cwpjava.hostingsupremo.org' ;                  // Configure el servidor SMTP para enviar a través de
       $mail -> SMTPAuth    = true ;                                   // Habilita la autenticación SMTP
-      $mail ->Username = 'soporte@guibis.com' ;                    // Nombrede usuario SMTP
-      $mail ->Password = 'NK6)&HY}V9B^Q)So;k2a' ;                               // Contraseña SMTP
+      $mail ->Username = 'soporte@ecuacompus.com' ;                    // Nombrede usuario SMTP
+      $mail ->Password = 'GgNtpdLyK4T' ;                               // Contraseña SMTP
       $mail -> SMTPSecure = 'ssl';         // Habilite el cifrado TLS; Se recomienda `PHPMailer :: ENCRYPTION_SMTPS`
       $mail -> Port        = 465 ;                                     // Puerto TCP para conectarse, use 465 para `PHPMailer :: ENCRYPTION_SMTPS` arriba
 
       // Destinatarios
-      $mail -> setFrom ( 'soporte@guibis.com' , 'Equipo de Compras' );
+      $mail -> setFrom ( 'soporte@ecuacompus.com' , 'Equipo de Compras' );
       $mail -> addAddress ($email_vendedor);     // Agrega un destinatario
-      $mail -> addAddress ('soporte@guibis.com');     // Agrega un destinatario
+      $mail -> addAddress ('soporte@ecuacompus.com');     // Agrega un destinatario
       $mail->AddAttachment($filep, 'guia_compra.pdf');
       // Contenido
       $mail -> isHTML ( true );                                  // Establecer el formato de correo electrónico en HTML
@@ -414,7 +413,7 @@ $fecha_actual =  date("Y-m-d H:i:s");
             <div class="soporte" style="text-align: center;padding: 10px;margin: 5px;">
               <p>Si tienes alguna duda comunicate con nuestro equipo</p>
               <a style="display: block;text-decoration: none;padding: 10px;" href="tel:+593998855160">+593998855160</a> <br>
-              <a style="display: block;text-decoration: none;padding: 10px;" href="mailto:soporte@guibis.com">soporte@guibis.com</a>
+              <a style="display: block;text-decoration: none;padding: 10px;" href="mailto:soporte@ecuacompus.com">soporte@ecuacompus.com</a>
             </div>
             <div class="redes-sociales">
               <div class="redes_email" style="text-align: center;">
@@ -460,17 +459,17 @@ $fecha_actual =  date("Y-m-d H:i:s");
       // Configuración del servidor
       $mail -> SMTPDebug = 0;                                      // Habilita la salida de depuración detallada
       $mail -> isSMTP ();                                          // Enviar usando SMTP
-      $mail -> Host        = 'mail.guibis.com' ;                  // Configure el servidor SMTP para enviar a través de
+      $mail -> Host        = 'cwpjava.hostingsupremo.org' ;                  // Configure el servidor SMTP para enviar a través de
       $mail -> SMTPAuth    = true ;                                   // Habilita la autenticación SMTP
-      $mail ->Username = 'soporte@guibis.com' ;                    // Nombrede usuario SMTP
-      $mail ->Password = 'NK6)&HY}V9B^Q)So;k2a' ;                               // Contraseña SMTP
+      $mail ->Username = 'soporte@ecuacompus.com' ;                    // Nombrede usuario SMTP
+      $mail ->Password = 'GgNtpdLyK4T' ;                               // Contraseña SMTP
       $mail -> SMTPSecure = 'ssl';         // Habilite el cifrado TLS; Se recomienda `PHPMailer :: ENCRYPTION_SMTPS`
       $mail -> Port        = 465 ;                                     // Puerto TCP para conectarse, use 465 para `PHPMailer :: ENCRYPTION_SMTPS` arriba
 
       // Destinatarios
-      $mail -> setFrom ( 'soporte@guibis.com' , 'Equipo Ventas' );
+      $mail -> setFrom ( 'soporte@ecuacompus.com' , 'Equipo Ventas' );
       $mail -> addAddress ($email_usuario);     // Agrega un destinatario
-      $mail -> addAddress ('soporte@guibis.com');     // Agrega un destinatario
+      $mail -> addAddress ('soporte@ecuacompus.com');     // Agrega un destinatario
       $mail->AddAttachment($filep, 'guia_venta.pdf');
 
       // Contenido
@@ -497,7 +496,7 @@ $fecha_actual =  date("Y-m-d H:i:s");
             <div class="soporte" style="text-align: center;padding: 10px;margin: 5px;">
               <p>Si tienes alguna duda comunicate con nuestro equipo</p>
               <a style="display: block;text-decoration: none;padding: 10px;" href="tel:+593998855160">+593998855160</a> <br>
-              <a style="display: block;text-decoration: none;padding: 10px;" href="mailto:soporte@guibis.com">soporte@guibis.com</a>
+              <a style="display: block;text-decoration: none;padding: 10px;" href="mailto:soporte@ecuacompus.com">soporte@ecuacompus.com</a>
             </div>
             <div class="redes-sociales">
               <div class="redes_email" style="text-align: center;">
@@ -545,17 +544,17 @@ $fecha_actual =  date("Y-m-d H:i:s");
       // Configuración del servidor
       $mail -> SMTPDebug = 0;                                      // Habilita la salida de depuración detallada
       $mail -> isSMTP ();                                          // Enviar usando SMTP
-      $mail -> Host        = 'mail.guibis.com' ;                  // Configure el servidor SMTP para enviar a través de
+      $mail -> Host        = 'cwpjava.hostingsupremo.org' ;                  // Configure el servidor SMTP para enviar a través de
       $mail -> SMTPAuth    = true ;                                   // Habilita la autenticación SMTP
-      $mail ->Username = 'soporte@guibis.com' ;                    // Nombrede usuario SMTP
-      $mail ->Password = 'NK6)&HY}V9B^Q)So;k2a' ;                               // Contraseña SMTP
+      $mail ->Username = 'soporte@ecuacompus.com' ;                    // Nombrede usuario SMTP
+      $mail ->Password = 'GgNtpdLyK4T' ;                               // Contraseña SMTP
       $mail -> SMTPSecure = 'ssl';         // Habilite el cifrado TLS; Se recomienda `PHPMailer :: ENCRYPTION_SMTPS`
       $mail -> Port        = 465 ;                                     // Puerto TCP para conectarse, use 465 para `PHPMailer :: ENCRYPTION_SMTPS` arriba
 
       // Destinatarios
-      $mail -> setFrom ( 'soporte@guibis.com' , 'Equipo Ventas' );
+      $mail -> setFrom ( 'soporte@ecuacompus.com' , 'Equipo Ventas' );
       $mail -> addAddress ($email_usuario);     // Agrega un destinatario
-      $mail -> addAddress ('soporte@guibis.com');     // Agrega un destinatario
+      $mail -> addAddress ('soporte@ecuacompus.com');     // Agrega un destinatario
       $mail->AddAttachment($filep, 'guia_venta.pdf');
 
       // Contenido
@@ -580,7 +579,7 @@ $fecha_actual =  date("Y-m-d H:i:s");
             <div class="soporte" style="text-align: center;padding: 10px;margin: 5px;">
               <p>Si tienes alguna duda comunicate con nuestro equipo</p>
               <a style="display: block;text-decoration: none;padding: 10px;" href="tel:+593998855160">+593998855160</a> <br>
-              <a style="display: block;text-decoration: none;padding: 10px;" href="mailto:soporte@guibis.com">soporte@guibis.com</a>
+              <a style="display: block;text-decoration: none;padding: 10px;" href="mailto:soporte@ecuacompus.com">soporte@ecuacompus.com</a>
             </div>
             <div class="redes-sociales">
               <div class="redes_email" style="text-align: center;">

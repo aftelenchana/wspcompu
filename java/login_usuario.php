@@ -12,10 +12,6 @@ include "../home/jquery_bancario/envio_email_ingreso_incorrecto.php";
 require "../coneccion.php" ;
   mysqli_set_charset($conection, 'utf8mb4'); //linea a colocar
 
-  $query_configuracioin = mysqli_query($conection, "SELECT * FROM configuraciones ");
-  $result_configuracion = mysqli_fetch_array($query_configuracioin);
-  $ambito_area          =  $result_configuracion['ambito'];
-
 
 
   $protocol = empty($_SERVER['HTTPS']) ? 'http://' : 'https://';$domain = $_SERVER['HTTP_HOST'];$url = $protocol . $domain;
@@ -48,47 +44,7 @@ $query_doccumentos =  mysqli_query($conection, "SELECT * FROM  usuarios  WHERE  
 
        }
 
-       // Segunda consulta para usuarios de usuario_punto_venta
-       $query_usuario_punto_venta = mysqli_query($conection, "SELECT usuarios_punto_venta.nombres,usuarios_punto_venta.id,usuarios_punto_venta.mail,
-         usuarios_punto_venta.foto,usuarios_punto_venta.url_img_upload FROM usuarios_punto_venta WHERE usuarios_punto_venta.estatus = '1' AND  LOWER(mail) = LOWER('$email')");
-       while ($data_usuario_punto_venta = mysqli_fetch_assoc($query_usuario_punto_venta)) {
 
-               $data_usuario_punto_venta['rol'] = 'Usuario Venta'; // Agregar el rol
-               $usuarios_totales[] = $data_usuario_punto_venta; // Añadir al array total
-
-       }
-
-
-       // Tercera consulta para usuarios de publicidad
-       $query_usuario_publicidad = mysqli_query($conection, "SELECT * FROM usuarios_publicidad WHERE usuarios_publicidad.estatus = '1' AND  LOWER(mail) = LOWER('$email')");
-       while ($data_usuario_publicidad = mysqli_fetch_assoc($query_usuario_publicidad)) {
-
-               $data_usuario_publicidad['rol'] = 'Publicidad'; // Agregar el rol
-               $usuarios_totales[] = $data_usuario_publicidad; // Añadir al array total
-
-       }
-
-       // Cuarta consulta para usuarios de publicidad
-       $query_usuario_recursos_humanos = mysqli_query($conection, "SELECT recursos_humanos.id,recursos_humanos.nombres,recursos_humanos.url_img_upload,
-        recursos_humanos.foto,categoria_recursos_humanos.nombre  FROM recursos_humanos
-         INNER JOIN categoria_recursos_humanos ON categoria_recursos_humanos.id = recursos_humanos.categoria_recursos_humanos
-         WHERE recursos_humanos.estatus = '1' AND  LOWER(mail) = LOWER('$email')");
-       while ($data_usuario_recursos_humanos = mysqli_fetch_assoc($query_usuario_recursos_humanos)) {
-
-               $data_usuario_recursos_humanos['rol'] = 'Recursos Humanos'; // Agregar el rol
-               $usuarios_totales[] = $data_usuario_recursos_humanos; // Añadir al array total
-
-
-        }
-
-       // quinta consulta para clientes
-       $query_usuario_clientes = mysqli_query($conection, "SELECT * FROM clientes WHERE clientes.estatus = '1' AND  LOWER(mail) = LOWER('$email')");
-       while ($data_usuarios_clientes = mysqli_fetch_assoc($query_usuario_clientes)) {
-
-              $data_usuarios_clientes['rol'] = 'Paciente'; // Agregar el rol
-              $usuarios_totales[] = $data_usuarios_clientes; // Añadir al array total
-
-       }
 
        // Verificar si se encontraron usuarios
        if (count($usuarios_totales) > 0) {

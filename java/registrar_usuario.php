@@ -86,7 +86,7 @@ require "../coneccion.php" ;
 
 
          $nombres    =  mb_strtoupper($_POST['nombres']);
-         $apellidos  =  mb_strtoupper($_POST['apellidos']);
+
          $email      =  mb_strtoupper($_POST['mail_user']);
 
 
@@ -104,8 +104,8 @@ require "../coneccion.php" ;
 
 
      $codigo_registro = mb_strtoupper(md5($email.date('d-m-Y H:m:s')));
-      $query_insert=mysqli_query($conection,"INSERT INTO usuarios(nombres,apellidos,email,password,codigo_registro,pais,ciudad,provincia,ip,user_in,url_img_upload)
-                                                    VALUES('$nombres','$apellidos','$email','$password1','$codigo_registro','$pais','$ciudad','$provincia','$direccion_ip','$user_in','$url') ");
+      $query_insert=mysqli_query($conection,"INSERT INTO usuarios(nombres,email,password,codigo_registro,pais,ciudad,provincia,ip,user_in,url_img_upload)
+                                                    VALUES('$nombres','$email','$password1','$codigo_registro','$pais','$ciudad','$provincia','$direccion_ip','$user_in','$url') ");
 
 
       if ($query_insert) {
@@ -133,13 +133,12 @@ require "../coneccion.php" ;
         // Destinatarios
         $mail -> setFrom ( $Username_registro , 'Rezeta' );
         $mail -> addAddress ($email);
-        $mail -> addAddress($email_user_name_envio);
-        $mail -> addAddress ('guibis@guibis.com');  // Agrega un destinatario
+        $mail -> addAddress($Username_registro);
 
         // Contenido
         $mail->isHTML(true);
         $mail->CharSet = 'UTF-8'; // Establecer el formato de correo electrónico en HTML
-        $mail->Subject = 'Bienvenido/a a '.$nombre_empresa.'';
+        $mail->Subject = 'Bienvenido/a a '.$nombre_empresa.' - Plataforma de Envíos Masivos de WhatsApp';
         $mail->Body = '
         <body style="background: #f5f5f5;padding: 6px;margin: 25px;">
             <div class="contenedor" style="background: #fff;padding: 20px;margin: 10px;">
@@ -147,25 +146,26 @@ require "../coneccion.php" ;
                     <img src="' . $url . '/home/img/upload/'.$img_facturacion.'" alt="Logo de la Empresa" style="width: 200px;">
                 </div>
                 <div class="contenedor-informacion" style="text-align: justify;">
-                    <p>¡Hola <span>' . $nombres . '</span>! Te damos una cálida bienvenida a nuestro sistema médico Rezeta, tu nuevo aliado en la gestión de tu salud.</p>
-                    <p>Estamos emocionados de tenerte con nosotros y estamos aquí para ayudarte a gestionar y mejorar tu salud con facilidad y eficiencia. Con nuestro sistema médico, no solo puedes gestionar tus citas y expedientes médicos de manera sencilla y rápida, sino que también puedes:</p>
+                    <p>¡Hola <span>' . $nombres . '</span>! Te damos una cálida bienvenida a <strong>'.$nombre_empresa.'</strong>, tu nueva plataforma para envíos masivos de mensajes a través de WhatsApp.</p>
+                    <p>Nos alegra tenerte como parte de nuestra comunidad. Ahora podrás gestionar de forma eficiente tus campañas de mensajería masiva con nuestras herramientas avanzadas. Con nuestra plataforma, puedes:</p>
                     <ul>
-                        <li><strong>Programar Citas:</strong> Agenda tus citas médicas de manera sencilla y rápida.</li>
-                        <li><strong>Acceder a tu Historial Médico:</strong> Consulta tu historial médico en cualquier momento y lugar.</li>
-                        <li><strong>Recibir Recordatorios:</strong> Recibe recordatorios de tus citas y medicamentos.</li>
-                        <li><strong>Comunicarte con tu Médico:</strong> Mantén una comunicación directa con tu médico a través de nuestra plataforma.</li>
+                        <li><strong>Enviar Mensajes Masivos:</strong> Distribuye tus mensajes a cientos o miles de contactos con un solo clic.</li>
+                        <li><strong>Programar Mensajes:</strong> Planifica envíos para que tus mensajes lleguen en el momento justo.</li>
+                        <li><strong>Personalizar Mensajes:</strong> Agrega un toque personal a cada mensaje usando variables dinámicas para cada contacto.</li>
+                        <li><strong>Obtener Reportes Detallados:</strong> Monitorea el rendimiento de tus campañas con informes y estadísticas en tiempo real.</li>
                     </ul>
                     <p>Para comenzar, por favor confirma tu dirección de correo electrónico y activa tu cuenta haciendo clic en el siguiente enlace:</p>
                     <p style="text-align: center;">
                         <a href="' . $url . '/login?codigo_registro=' . $codigo_registro . '" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block;">Confirmar mi Cuenta</a>
                     </p>
-                    <p>Si tienes alguna pregunta o necesitas ayuda en algún momento, nuestro equipo de soporte está aquí para ayudarte. Puedes ponerte en contacto con nosotros en cualquier momento respondiendo a este correo electrónico o a través de nuestro centro de ayuda en línea.</p>
-                    <p>¡Estamos emocionados de ser parte de tu viaje hacia una mejor salud y estamos aquí para apoyarte en cada paso del camino!</p>
+                    <p>Si tienes alguna pregunta o necesitas ayuda en cualquier momento, nuestro equipo de soporte está aquí para asistirte. Puedes contactarnos respondiendo a este correo o visitando nuestro centro de ayuda en línea.</p>
+                    <p>¡Estamos emocionados de ayudarte a alcanzar a más personas de manera rápida y efectiva usando WhatsApp!</p>
                     <p>Con aprecio,<br>El Equipo de '.$nombre_empresa.'</p>
                 </div>
             </div>
         </body>
         ';
+
 
 
                 if (!$mail->send()) {
