@@ -1,0 +1,72 @@
+.foto_perfil{
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+  width: 300px;
+  margin: 0 auto;
+}
+.foto_ver{
+  width: 100px;
+  height: 100px;
+  text-align:center;
+    margin: 0 auto;
+}
+.foto_ver img{
+  max-width: 100px;
+  max-height: 100px;
+
+}
+
+.cambiar_foto{
+  background: #232F3E;
+  text-align: center;
+  border-radius: 3px;
+  padding: 2px;
+
+}
+.cambiar_foto a{
+  color: #fff;
+}
+
+.tipoimg{
+  display: inline-block;
+  padding: 3px;
+  margin: 3px;
+}
+.imagen_ttl{
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*Para imagen de empresa*/
+.foto_empresa{
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+  width: 300px;
+  margin: 0 auto;
+}
+.img_empresa_ver{
+  width: 100px;
+  height: 100px;
+  text-align:center;
+    margin: 0 auto;
+}
+.img_empresa_ver img{
+  max-width: 100px;
+  max-height: 100px;
+
+}
+
+.cambiar_foto_empresa{
+  background: #232F3E;
+  text-align: center;
+  border-radius: 3px;
+  padding: 2px;
+
+}
+.cambiar_foto_empresa a{
+  color: #fff;
+}

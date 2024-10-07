@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>GUIBIS S.A.</razonSocial>
+    <nombreComercial>GUIBIS S.A.</nombreComercial>
+    <ruc>1716857576001</ruc>
+    <claveAcceso>2302202301171685757600120010010000003601234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000360</secuencial>
+    <dirMatriz>VACAS GALINDO LUIS URDANETA 1400 Y ANTEPRA</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>23/02/2023</fechaEmision>
+    <dirEstablecimiento>VACAS GALINDO LUIS URDANETA 1400 Y ANTEPRA</dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ALEX FERNADO TELENCHANA</razonSocialComprador>
+    <identificacionComprador>1804843900</identificacionComprador>
+    <totalSinImpuestos>6</totalSinImpuestos>
+    <totalDescuento>0</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>6</baseImponible>
+        <valor>0.72</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>6.72</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>6.72</total>
+        <plazo>1</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>1776</codigoPrincipal>
+      <descripcion>cdcsdcd</descripcion>
+      <cantidad>2</cantidad>
+      <precioUnitario>3</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>6</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>6</baseImponible>
+          <valor>0.72</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="email">guibis-ecuador@guibis.com</campoAdicional>
+  </infoAdicional></factura>

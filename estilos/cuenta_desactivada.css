@@ -1,0 +1,45 @@
+.titu_in{
+  text-align: center;
+  background:#FF0000;
+  width: 50%;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 10px;
+
+}
+.img_in{
+  text-align: center;
+}
+.img_in img{
+  width: 400px;
+}
+.desc_in {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  padding: 8px;
+}
+.desc_in a{
+  text-decoration: none;
+  background: #232F3E;
+  color: #fff;
+  padding: 5px;
+  border-radius: 9px;
+
+}
+@media screen and (max-width:500px ) {
+  .img_in img{
+    width: 200px;
+  }
+  .titu_in{
+
+    width: 90%;
+
+
+  }
+
+
+}

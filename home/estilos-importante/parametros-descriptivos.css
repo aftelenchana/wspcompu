@@ -1,0 +1,25 @@
+.cotenedor_parametros_generales{
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: #232F3E;
+  background:  #f2f2f2 ;
+
+  padding: 15px;
+  margin: 15px;
+}
+.cotenedor_parametros_generales a{
+  text-decoration: none;
+}
+.informacion_subtotal_categorias{
+  background:  #f2f2f2 ;
+  padding: 30px;
+  margin: 10px;
+
+}
+.informacion_subtotal_categorias p{
+  background: #fff;
+  padding: 20px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: #232F3E;
+}

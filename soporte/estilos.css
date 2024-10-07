@@ -1,0 +1,62 @@
+@keyframes pulseAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); } /* Un efecto más sutil */
+    100% { transform: scale(1); }
+}
+
+.boton_soporte_tecnico {
+    animation: pulseAnimation 2s infinite; /* Aplica la animación al botón */
+    border: none; /* Elimina el borde del botón */
+    outline: none; /* Elimina el outline para un look más limpio */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2); /* Añade sombra para destacar */
+    border-radius: 50%; /* Hace el botón completamente redondo */
+    width: 60px; /* Tamaño fijo para el botón */
+    height: 60px; /* Tamaño fijo para el botón */
+    display: flex; /* Permite centrar el icono dentro del botón */
+    justify-content: center; /* Centra el icono horizontalmente */
+    align-items: center; /* Centra el icono verticalmente */
+    background-color: #007bff; /* Cambia el color de fondo */
+}
+
+/* Cambia el color de fondo del botón al pasar el mouse */
+.boton_soporte_tecnico:hover {
+    background-color: #0056b3;
+}
+
+       .chat-button {
+           border-radius: 50%; /* Hace que el botón sea completamente redondo */
+           width: 60px; /* Ajusta estos valores según el tamaño deseado del botón */
+           height: 60px;
+           padding: 5px; /* Ajusta el padding para centrar la imagen si es necesario */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+
+       /* Personaliza el modal para que se comporte como un chat */
+       #chatModal .modal-dialog {
+           position: fixed;
+           margin: 0;
+           right: 20px;
+           bottom: 0;
+           width: 350px; /* Ajusta el ancho del chat aquí */
+           max-width: 100%; /* Asegura que el ancho máximo sea el 100% */
+       }
+
+       #chatModal .modal-content {
+           height: 400px; /* Ajusta la altura del chat aquí */
+           display: flex;
+           flex-direction: column;
+       }
+
+       #chatModal .modal-body {
+           overflow-y: auto;
+           flex-grow: 1;
+       }
+
+       .bubble {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 70%;
+}

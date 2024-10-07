@@ -1,0 +1,106 @@
+.informacion_producto_compra {
+background-image: url("img/reacciones/0.png")
+
+}
+.informacion_producto_compra table{
+  margin: 0 auto;
+}
+.bodyModal_compra_producto input{
+  border-color: #4C5484;
+  border-width: 2px;
+  border-style: solid;
+  width: 44%;
+  text-align:center;
+  padding: 3px;
+  margin: 1px;
+}
+.compra_correcta {
+  background: #232F3E;
+  border-radius: 100px;
+  margin: 3px;
+  padding: 3px;
+}
+.compra_correcta p{
+  color: #fff;
+}
+.bodyModal_compra_producto{
+  height: 350px;
+
+}
+.informacion_producto_compra{
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+
+
+}
+.bodyModal_compra_producto form{
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  height: 360px;
+}
+
+.name_titu{
+  font-weight: bold;
+}
+.precio_info_titu{
+  color: #FC9D00;
+  font-weight: bold;
+  font-size: 20px;
+}
+#saldo_existente {
+    color: #FC9D00;
+    font-size: 28px;
+
+}
+
+.modal_secundario{
+background: rgba(0, 0, 0, 0);
+}
+.informacion_leben{
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 2px;
+
+}
+.informacion_leben table{
+  margin: 0 auto;
+}
+
+.bodyModal_compra_comprobante form{
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  height: 360px;
+}
+.bodyModal_compra_comprobante{
+  height: 350px;
+}
+.advertencia_boucher{
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 2px;
+  font-size: 10px;
+}
+.bodyModal_compra_comprobante .comprobante_unico{
+  border-color: #4C5484;
+  border-width: 2px;
+  border-style: solid;
+  width: 44%;
+  text-align:center;
+  padding: 3px;
+  margin: 1px;
+
+}

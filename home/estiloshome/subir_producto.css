@@ -1,0 +1,108 @@
+.titu_seleccion {
+  text-align: center;
+}
+ .seleccionador{
+   text-align: center;
+ }
+ .seleccionador select{
+   width: 25%;
+   text-align: center;
+   padding: 9px;
+
+ }
+ .conte_continuar {
+   margin: 5px;
+ }
+.continuar {
+  background: #232F3E;
+  width: 25%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+.continuar a{
+  text-decoration: none;
+  color: #ffF;
+  padding: 15px;
+  margin: 15px;
+}
+.continuar a:hover{
+  font-size: 19px;
+}
+/*Agrear nuevo Producto*/
+.agregar-producto {
+  background: #232F3E;
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+
+}
+.agregar-producto  .conte_input{
+  margin: 6px;
+}
+.agregar-producto input{
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+.agregar-producto  label{
+  text-align: left;
+}
+.agregar-producto select{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.agregar-producto .conte_input img{
+  width: 20%;
+  padding: 2px;
+  margin: 3px;
+  background: #fff;
+}
+.sb_mit:hover{
+  background: #FFC300;
+  cursor: pointer;
+  padding: 3px;
+
+}
+.lugar_producto select{
+  width: 30%;
+  display: inline-block;
+}
+.lugar_producto{
+    display: flex;
+    margin: 15px;
+}
+
+
+
+@media (max-width:660px ) {
+
+  .agregar-producto {
+  width: 88%;
+  }
+  .seleccionador select{
+    width: 50%;
+    text-align: center;
+    padding: 9px;
+
+  }
+}
+
+
+@media (max-width:460px ) {
+
+  .agregar-producto {
+  width: 88%;
+  }
+  .seleccionador select{
+    width: 75%;
+    text-align: center;
+    padding: 9px;
+
+  }
+}

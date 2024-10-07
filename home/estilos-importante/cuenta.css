@@ -1,0 +1,23 @@
+.contenedor-boton-agregar-movimientos{
+  text-align: center;
+}
+.contenedor-boton-agregar-movimientos .imagen-boton-agregar-movimientos img{
+  width: 10%
+}
+.card-activar-cuenta{
+  text-align: center;
+}
+.informacion-usuario {
+  text-align: center;
+  margin: 0 auto;
+}
+.imagen-modal-subir-identificacion {
+  margin: 0 auto;
+  text-align: center;
+}
+.imagen-modal-subir-identificacion img{
+  width: 15%;
+}
+.notificacion_negativa{
+  text-align: center;
+}

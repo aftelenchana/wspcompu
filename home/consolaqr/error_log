@@ -1,0 +1,2 @@
+[29-Jan-2022 05:38:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/guibisco/public_html/home/escan_evento/resources/php/conexion.php on line 7
+[30-Jan-2022 01:22:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/guibisco/public_html/home/escan_evento/resources/php/conexion.php on line 7

@@ -1,0 +1,76 @@
+.contedor_info_sorteo{
+
+  width: 830px;
+  margin: 0 auto;
+  border-color: #4C5484;
+border-width: 2px;
+border-style: solid;
+border-radius: 9px;
+}
+
+.titulo_sorteo{
+  text-align: center;
+}
+.imagen_sorto {
+  display: inline-block;
+  width: 450px;
+  height: 450px;
+  margin: 5px;
+  padding: 5px;
+
+}
+.imagen_sorto img {
+  max-width: 450px;
+  max-height: 450px;
+
+}
+
+.tabla_info_sorteo{
+  display: inline-block;
+
+  text-align: center;
+
+}
+.tabla_info_sorteo table{
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+.tabla_info_sorteo td{
+  padding: 2px;
+  margin: px;
+}
+.qr_boleto{
+  text-align: center;
+}
+.negra {
+  background: #9FA8EF;
+  border-radius: 4px;
+}
+
+.balnca {
+  background: #E3B4F0;
+  border-radius: 4px;
+}
+.ventas_sorteos {
+  background: #c1c1c1;
+  width: 900px;
+  margin: 0 auto;
+}
+.cabezera_ventas_sorteos{
+  text-align: center;
+}
+.cabezera_ventas_sorteos table{
+  text-align: center;
+  margin: 0 auto;
+}
+.cabezera_ventas_sorteos th {
+  padding: 10px;
+}
+.ventas_sorteos .cabezera_ventas_sorteos img{
+  max-width: 45px;
+  max-height: 45px;
+
+
+
+}

@@ -1,0 +1,25 @@
+.contendedor_acciones_articulos{
+margin: 0 auto;
+
+}
+.contendedor_acciones_articulos{
+  width: 70%;
+margin: 0 auto;
+
+}
+.contendedor_acciones_articulos .card{
+  width: 23rem;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+}
+#salida_imagenes_contenedor img{
+  width: 35px;
+}
+ .contendedor_acciones_articulos .col{
+   text-align: center;
+ }
+.enlaces_jkj{
+  padding: 5px;
+  margin: 5px;
+}

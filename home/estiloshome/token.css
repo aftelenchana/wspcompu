@@ -1,0 +1,13 @@
+.contenido_qr_bancario{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: #232F3E;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.contenido_qr_bancario img{
+  width: 180px;
+  margin: 0 auto;
+}

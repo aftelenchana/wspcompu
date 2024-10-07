@@ -1,0 +1,119 @@
+.contendor_historial_producto {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+
+}
+.respuesta_sistema{
+  background: #51AF41;
+  border-radius: 40px;
+  text-align: center;
+}
+.contendor_historial_producto form{
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+.contendor_historial_producto table{
+  margin: 0 auto;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+
+.contendor_historial_producto tr{
+  padding: 3px;
+}
+.contendor_historial_producto td{
+  padding: 4px;
+}
+.img_producto_historial{
+  width: 200px;
+  height: 120px;
+  margin: 0 auto;
+}
+.img_producto_historial img{
+  max-width: 115px;
+}
+.img_qr_historial img {
+  max-width: 60px;
+  max-height: 60px;
+}
+.tabla_contenedor img{
+  width: 40px;
+}
+
+.tabla_contenedor .redes{
+  display: inline-block;
+  padding: 3px;
+}
+.qr_logo{
+  display: inline-block;
+  width: 60px;
+  height: 63px;
+}
+
+/*Para boletos*/
+.sorteo_historial{
+  background-image: url("../img/reacciones/leben2.png");
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+
+}
+.sorteo_historial .contendor_boleto_sorteo .img_boleto_historial{
+  width: 160px;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+}
+.sorteo_historial .contendor_boleto_sorteo .img_boleto_historial img{
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+.informacion_boleto {
+  display: inline-block;
+  background: #FFF;;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+.qr_venta_usuario_comprador{
+  display: inline-block;
+}
+.qr_venta_usuario_comprador img{
+  width: 110px;
+}
+.codigo_sorteo {
+  text-align: center;
+  font-weight: bold;
+
+}
+.redes_sorteo{
+  text-align: center;
+}
+.redes_y{
+  display: inline-block;
+  text-align: center;
+}
+.redes_sorteo img{
+  width: 25px;
+}
+.img_boleto_historial h3{
+  background: #fff;
+  padding: 4px;
+}
+.codigo_sorteo{
+  background: #fff;
+}

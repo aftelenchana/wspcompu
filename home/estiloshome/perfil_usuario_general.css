@@ -1,0 +1,74 @@
+body{
+  background:  #f8f8f8 ;
+}
+.contenedor_imagenes{
+  padding: 25px;
+  margin: 25px;
+}
+.contenedor_imagenes .img_principal{
+
+}
+.contenedor_imagenes .img_principal img{
+  max-width: 250px;
+  height: auto;
+  background: #c1c1c1;
+}
+
+.contenedor_imagenes .img_principal .row{
+  text-align: center;
+}
+.contenedor_accion_bajo{
+
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+}
+.contenedor_accion_bajo .card{
+  display: inline-block;
+}
+.contenedor_accion_bajo .redes_perfilg img{
+  width: 20px;
+}
+.contenedor_accion_bajo .card{
+  width: 18rem;
+}
+.redes_sociales_g img{
+  width: 25px;
+
+}
+.redes_sociales_g img:hover{
+  width: 37px;
+  padding: 3px;
+}
+.informaci_perfil_contar .card-text{
+  padding: 1px;
+  margin: 1px;
+}
+.precio_perfil{
+  color: #E3870B;
+  font-weight: bold;
+}
+.accionar_contador{
+  padding: 2px;
+  margin: 2px;
+  text-align: center;
+}
+.accionar_contador .aditivod img{
+  width: 20px;
+}
+.accionar_contador  .restar:hover{
+  background: #ffebeb   ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.accionar_contador  .sumar:hover{
+  background: #d8fdd1    ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.accionar_contador .contador_articulos a{
+  margin: 0;
+}
+.univeral_target{
+  text-align: center;
+}

@@ -1,0 +1,99 @@
+.Contenido_personal{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.Contenido_personal table{
+  border-collapse: collapse;
+}
+
+.Contenido_personal tr,td{
+    border: solid 1px #c1c1c1;
+    padding: 3px;
+}
+.Contenido_personal form{
+  text-align: center;
+}
+.Contenido_personal .header_table{
+  background: #232F3E;
+  color: #fff;
+  height: 55px;
+}
+.Contenido_personal .input_sbm{
+  padding: 3px;
+}
+.Contenido_personal img{
+  width: 50px;
+}
+.Contenido_personal .notificacion_negativa{
+  background: #FF0C00;
+  color: #fff;
+
+}
+.Contenido_personal .input_sbm:hover{
+  background: #232F3E;
+  color: #fff;
+  cursor: pointer;
+}
+.contenedore_info_personal .input_sbm:hover{
+  background: #232F3E;
+  color: #fff;
+  cursor: pointer;
+}
+.Contenido_personal .input_clasic{
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+}
+.Contenido_personal tr:hover{
+  background: #FFC300;
+
+}
+@media (max-width:700px ) {
+  .Contenido_personal{
+    margin: 20px;
+    width: 90%;
+  }
+  .Contenido_personal .input_clasic{
+    display: block;
+  }
+.Contenido_personal table{
+  width: 90%;
+}
+.Contenido_personal table td{
+  margin: 0 auto;
+  width: 85%;
+  font-size: 14px;
+}
+.Contenido_personal table tr{
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #c1c1c1;
+  padding: 1em;
+  margin-bottom: 1em;
+  width: 90%;
+
+}
+.Contenido_personal .header_table{
+  display: none;
+}
+.Contenido_personal table td[data-titulo]{
+  display: flex;
+}
+.Contenido_personal table td[data-titulo]::before{
+  content: attr(data-titulo);
+  width: 150px;
+  font-size: 14px;
+    font-weight: bold;
+}
+.Contenido_personal td,tr{
+  border: none;
+}
+.Contenido_personal  .notificacion_general{
+  display: block;
+  padding: 5px;
+
+}
+
+
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>GUIRACOCHA SEILEMA XAVIER LEONARDO</razonSocial>
+    <nombreComercial>LG CONTADURIA</nombreComercial>
+    <ruc>0923013288001</ruc>
+    <claveAcceso>3110202301092301328800120011010000000501234567810</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>101</ptoEmi>
+    <secuencial>000000050</secuencial>
+    <dirMatriz>MUCHO LOTE 2 URB VALLE VICTORIA MZ 2831 </dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>31/10/2023</fechaEmision>
+    <dirEstablecimiento>Mucho Lote 2 Valle Victoria Mz 2831 </dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>GUIRACOCHA SEILEMA XAVIER LEONARDO</razonSocialComprador>
+    <identificacionComprador>0923013288</identificacionComprador>
+    <direccionComprador>ML2 VALLE VICTORIA MZ 2831</direccionComprador>
+    <totalSinImpuestos>9.68</totalSinImpuestos>
+    <totalDescuento>0</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>9.68</baseImponible>
+        <valor>0</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>9.68</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>5</total>
+        <plazo>5</plazo>
+        <unidadTiempo>Dias</unidadTiempo>
+      </pago>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>4.68</total>
+        <plazo>5</plazo>
+        <unidadTiempo>Dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>957</codigoPrincipal>
+      <codigoAuxiliar>S000000093</codigoAuxiliar>
+      <descripcion>Servicio Firma Electrónica Archivo P12 7 días</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>9.68</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>9.68</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="Información" valor="FIRMA PN CON CEDULA - VIGENCIA 7 DÍAS"/>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>9.68</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="vendedor ">LG</campoAdicional>
+    <campoAdicional nombre="correo ">xls_9_9@hotmail.com</campoAdicional>
+    <campoAdicional nombre="ciudad ">GUAYAQUIL</campoAdicional>
+  </infoAdicional></factura>

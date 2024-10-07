@@ -1,0 +1,41 @@
+.perfil_img_personal{
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+.perfil_img_personal img{
+  max-width: 120px;
+  max-height: 120px;
+  text-align: center;
+}
+.perfil__ing{
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.informacion_personal{
+
+  width: 400px;
+  margin: 0 auto;
+}
+.informacion_personal table{
+  margin: 0 auto;
+}
+.informacion_personal td {
+  text-align: center;
+  padding: 3px;
+  margin: 3px;
+  width: 200px;
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+}
+.informacion_personal img{
+  display: inline-block;
+  width: 30px;
+}
+.informacion_personal .redes{
+  display: inline-block;
+}

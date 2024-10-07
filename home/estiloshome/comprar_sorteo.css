@@ -1,0 +1,56 @@
+.boleto_sorteo {
+
+
+}
+.contenedor_boleto{
+  width: 750px;
+  height: 270px;
+  margin: 0 auto;
+  padding: 8px;
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+background-image: url("../img/reacciones/leben2.png");
+
+
+}
+.imagen_precio_boleto{
+  text-align: center;
+  display: inline-block;
+}
+
+.img_boleto {
+  width: 210px;
+  height: 210px;
+
+}
+.img_boleto img{
+  max-width: 205px;
+  max-height: 205px;
+  width: 210px;
+  text-align: center;
+}
+.precio_boleto{
+  text-align: center;
+}
+.informacion_boleto{
+  text-align: center;
+  width: 450px;
+  display: inline-block;
+  font-size: 15px;
+}
+.informacion_boleto img {
+  width: 95px;
+}
+.info_boleto_p{
+  width: 150px;
+  font-weight: bold;
+}
+.imagen_precio_boleto h4{
+  font-size: 35px;
+  background: #fff;
+}
+.tabla_informacion{
+  background: #fff;
+}

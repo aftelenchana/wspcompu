@@ -1,0 +1,83 @@
+.titulo_ch {
+    text-align: center;
+}
+.tabala_ch{
+    text-align: center;
+}
+.tabala_ch tr,td{
+border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+}
+.tabala_ch table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.pagar {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-color: #4C5484;
+    border-width: 1px;
+    border-style: solid;
+    width: 50%;
+    margin:  0 auto;
+}
+.pagar .subn {
+    margin: 3px;
+    padding: 3px;
+}
+.pagar input{
+    display: block;
+    padding: 4px;
+    margin:  0 auto;
+    width: 50%;
+    text-align: center;
+}
+.precio_final {
+    background-color: green;
+    display: inline-block;
+    padding: 3px;
+    margin: 3px;
+    font-size: 18px;
+
+}
+
+.pagar .subn input:hover{
+    background: #232F3E;
+    cursor: pointer;
+    color: #fff;
+}
+.notificacion_compra .error{
+    background-color: red;
+}
+.notificacion_compra .ok_compra{
+    background-color: green;
+}
+@media screen and (max-width:550px ) {
+    .pagar {
+        text-align: center;
+        padding: 2px;
+        margin: 2px;
+        width: 95%;
+        margin:  0 auto;
+    }
+    .pagar input{
+        display: block;
+        padding: 2px;
+        margin:  0 auto;
+        width: 90%;
+        text-align: center;
+    }
+    .titulo_ch {
+        font-size: 12px;
+    }
+    .tabala_ch table{
+        width: 90%;
+    }
+    
+
+  
+  
+  }

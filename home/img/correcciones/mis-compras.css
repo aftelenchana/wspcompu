@@ -1,0 +1,23 @@
+.bodyModal_ver_producto_compra .imagen_producto img{
+  width: 80px;
+}
+.bodyModal_ver_producto_compra .tabla_informacion_prod_hist table{
+  margin: 0 auto;
+}
+.bodyModal_ver_producto_compra .tabla_informacion_prod_hist tr{
+  padding: 5px;
+
+}
+.redes_sociales_historial img{
+  width: 35px;
+}
+
+.redes_sociales_historial  .redes{
+  width: 40px;
+  display: inline-block;
+}
+.redes_sociales_historial  a{
+  display: inline-block;
+  width: 45px;
+
+}

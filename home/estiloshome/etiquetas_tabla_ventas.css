@@ -1,0 +1,25 @@
+.estado_NOENTREGADO{
+  background: #FF0000;
+}
+.estado_ENTREGADO{
+  background: #21CB29;
+}
+.estado_PORSOLICITAR{
+    background: #FF0000;
+}
+.estado_PAGADO{
+  background: #21CB29;
+}
+.estado_venta_Iniciada {
+    background: #21CB29;
+}
+.estado_venta_Cancelada {
+    background: #FF0000;
+}
+.estado_venta_Finalizada  {
+    background: #DAF7A6;
+}
+
+.estado_venta_Reportado   {
+    background: #FDF200;
+}

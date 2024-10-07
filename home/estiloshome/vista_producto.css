@@ -1,0 +1,184 @@
+.total_comerse {
+  padding: 15px;
+}
+.producto {
+  width: 200px;
+  height: 277px;
+  text-align: center;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  background: #F0F0F0;
+  display: inline-block;
+  margin: 20px;
+}
+
+.producto table{
+  margin: 0 auto;
+}
+.producto .tabla_producto {
+
+}
+.producto .tabla_producto .img_producto{
+
+  text-align: center;
+
+  width: 400px;
+}
+.producto .tabla_producto .img_producto .fila_img_producto{
+
+  width: 200px;
+  height: 150px;
+
+}
+.producto .tabla_producto .img_producto .fila_img_producto img {
+  max-width: 130px;
+  max-height: 140px;
+}
+
+.producto .tabla_producto .img_producto .precio_columna .fila_precio{
+  padding: 7px;
+}
+
+.producto .tabla_producto .img_producto .lugar_producto .lugar_fila{
+  margin: 5px;
+}
+
+
+
+.producto .tabla_producto .redes .todas_redes img{
+  width: 30px;
+  padding: 3px;
+}
+
+.producto .tabla_producto .nomnre_producto_j {
+    font-size: 14px;
+    height: 41px;
+  font-weight: bold;
+}
+
+.producto .tabla_producto .nomnre_producto_j .fila_nombre_producto{
+  padding: 5px;
+}
+
+.producto .tabla_producto  .lugar_producto{
+  font-weight: bold;
+
+  height: 27px;
+}
+
+.producto .tabla_producto .columna_comprar {
+
+  height: 25px;
+}
+
+.producto .tabla_producto .columna_comprar a{
+  color: #000;
+}
+
+.producto .tabla_producto .columna_comprar a:hover{
+  font-size: 18px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  background: #C0C6CB;
+
+}
+
+.producto .tabla_producto .columna_comprar img {
+  width: 16px;
+}
+
+
+
+/*Consola para editar-elimnar-ver*/
+.producto_vista {
+  width: 200px;
+  height: 290px;
+  text-align: center;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  background: #F0F0F0;
+  display: inline-block;
+  margin: 20px;
+}
+
+.producto_vista table{
+  margin: 0 auto;
+}
+.producto_vista .tabla_producto {
+
+}
+.producto_vista .tabla_producto .img_producto{
+
+  text-align: center;
+
+  width: 400px;
+}
+.producto_vista .tabla_producto .img_producto .fila_img_producto{
+
+  width: 200px;
+  height: 150px;
+
+}
+.producto_vista .tabla_producto .img_producto .fila_img_producto img {
+  max-width: 130px;
+}
+
+.producto_vista .tabla_producto .img_producto .precio_columna .fila_precio{
+  padding: 7px;
+}
+
+.producto_vista .tabla_producto .img_producto .lugar_producto .lugar_fila{
+  margin: 5px;
+}
+
+
+
+.producto .tabla_producto .nomnre_producto_j {
+    font-size: 14px;
+    height: 41px;
+  font-weight: bold;
+}
+
+.producto .tabla_producto .nomnre_producto_j .fila_nombre_producto{
+  padding: 5px;
+}
+
+.producto_vista .tabla_producto  .lugar_producto{
+  font-weight: bold;
+  height: 27px;
+}
+
+.producto_vista .tabla_producto .acciones {
+
+  height: 25px;
+}
+
+.producto_vista .tabla_producto .acciones a{
+  color: #000;
+}
+
+.producto_vista .tabla_producto .acciones a:hover{
+  font-size: 18px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  background: #C0C6CB;
+
+}
+
+.producto_vista .tabla_producto .acciones img {
+  width: 16px;
+}
+
+.producto_vista .tabla_producto .acciones td{
+  padding: 5px;
+}

@@ -1,0 +1,24 @@
+.alert_add_producto {
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+}
+
+.alert_add_producto .posi_alert{
+  background: #63BC5D;
+}
+.alert_add_producto{
+  background: #63BC5D;
+}
+.producto_nuevo_creado {
+  width: 280px;
+  margin: 0 auto;
+}
+.producto_nuevo_creado .noticia_prod_creado{
+  background: #63BC5D;
+  border-radius: 6px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,95 @@
+.add_cantidad{
+  background: #c1c1c1;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;padding: 4px;
+}
+.add_cantidad .producto_agregar span{
+  font-weight: bold;
+  background: #C70039;
+  font-style: italic;
+  padding: 3px;
+}
+
+.add_cantidad  .sbn_a{
+  margin: 4px;
+}
+.add_cantidad  .sbn_a input:hover{
+  cursor: pointer;
+  background: #FF5733;
+}
+.add_cantidad input{
+  display: block;
+  width: 70%;
+  margin:  0 auto;
+  padding: 4px;
+  text-align: center;
+}
+.notificacion_add_producto .notio_positiva{
+  background: #39B217;
+}
+.notificacion_add_producto .noti_negativa{
+  background: #E43928;
+}
+.general_buscador{
+  padding: 3px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.general_buscador input{
+  text-align: center;
+}
+.general_buscador .buscador_productos{
+  background: #FFC300;
+}
+.general_buscador .resultado_busquedadd{
+  background: #86D688;
+}
+.general_buscador .bloque1{
+  display: inline-block;
+}
+.buscador_usuario{
+  background: #c1c1c1;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}
+.buscador_usuario input{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.buscador_usuario .sbn_user{
+  padding: 5px;
+  margin: 3px;
+}
+.buscador_usuario .sbn_user input:hover{
+  cursor: pointer;
+  background: #FF5733;
+}
+.limpiar_factura:hover{
+  cursor: pointer;
+  background: #FFC300;
+}
+
+@media screen and (max-width:800px ) {
+  .add_cantidad{
+    width: 90%;
+  }
+
+}
+@media screen and (max-width:600px ) {
+  .general_buscador{
+    width: 95%;
+
+  }
+
+}
+@media screen and (max-width:750px ) {
+  .buscador_usuario{
+    width: 90%;
+  }
+}

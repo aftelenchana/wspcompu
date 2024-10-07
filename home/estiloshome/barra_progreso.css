@@ -1,0 +1,56 @@
+
+.contenedor_barra{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.barra{
+  width: 350px;
+  height: 20px;
+  border-radius: 10px;
+  background: rgba(225, 225, 225, 0.5);
+  box-shadow: 20px 25px #232F3E;
+}
+h2{
+  text-align: center;
+}
+.progreso{
+  width: var(--w);
+  height: 100%;
+  background: #57BD49;;
+  border-radius: 10px;
+  animation: Aumentar 5s ease;
+}
+.habilidades .progreso:hover{
+  cursor: pointer;
+  animation: Aumentar 5s ease;
+}
+
+
+@keyframes Aumentar{
+  0%{width: 0%}
+  100%{width: var(--w)}
+}
+
+@media screen and (max-width:500px ) {
+  .barra{
+    width: 250px;
+  }
+
+
+}
+@media screen and (max-width:300px ) {
+  .barra{
+    width: 200px;
+  }
+
+
+}
+@media screen and (max-width:240px ) {
+  .barra{
+    width: 180px;
+  }
+
+
+}

@@ -1,0 +1,45 @@
+.mis_ventas_general {
+  background: #c1c1c1;
+  text-align: center;
+}
+.mis_ventas_general table{
+  margin: 0 auto;
+}
+.mis_ventas_general .encabezado_mis_ventas {
+  background: #232F3E;
+  color: #fff;
+}
+
+.mis_ventas_general .encabezado_mis_ventas td{
+  padding: 5px;
+}
+
+
+ .resultado_mis_ventas{
+   font-size: 12px;
+}
+.mis_ventas_general  .resultado_mis_ventas td{
+
+  padding: 8px;
+}
+
+.resultado_mis_ventas .producto_entregado{
+  background: #3CB818;
+  padding: 3px;
+  border-radius: 5px;
+}
+.resultado_mis_ventas .producto_no_entregado{
+  background: #ED3838;
+  padding: 3px;
+  border-radius: 5px;
+}
+.resultado_mis_ventas .en_proceso{
+  background: #EEC627;
+  padding: 3px;
+  border-radius: 5px;
+}
+.resultado_mis_ventas .no_pagado{
+  background: #ED3838;
+  padding: 3px;
+  border-radius: 5px;
+}

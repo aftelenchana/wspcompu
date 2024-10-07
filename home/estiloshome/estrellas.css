@@ -1,0 +1,22 @@
+
+
+.rating-css div{
+  color: #ffe400;
+  text-align: center;
+}
+.rating-css input{
+  display: none;
+
+}
+.rating-css input + label{
+  font-size: 27px;
+  text-shadow: 1px 1px  0 #ffe400;
+  cursor: pointer;
+}
+.rating-css input:checked + label ~ label{
+  color: #232F3E;;
+}
+.rating-css label:active{
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}

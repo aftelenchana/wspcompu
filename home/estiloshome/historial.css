@@ -1,0 +1,79 @@
+.modal_historial{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.81);
+  display: none;
+
+}
+.bodyModal_historial{
+  width: 100%;
+  height: auto;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  background: rgba(0, 0, 0, 0);
+}
+
+
+.modal_historial .bodyModal_historial form {
+  width: 600px;
+  text-align: center;
+  background: #F2F2F2;
+border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+margin: 0 auto;
+padding: 10px;
+
+
+}
+.modal_historial .bodyModal_historial .img_modal img {
+  width: 60px;
+}
+
+.modal_historial .bodyModal_historial button{
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.modal_historial .bodyModal_historial a{
+  padding: 5px;
+  background: #c1c1c1;
+  width: 300px;
+  border-radius: 3px;
+}
+.modal_historial .bodyModal_historial button:hover{
+  background: #3b5998;
+}
+
+.modal_historial .bodyModal_historial a:hover{
+  background: #EAA9A0;
+}
+
+#cerrar {
+  width: 15px;
+}
+
+.cabezera_historial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cabezera_historial td{
+  padding: 10px;
+  margin: 3px;
+}
+
+.cabe_titu_histo {
+  background: #232F3E;
+  color: #fff;
+}
+.result_histo {
+  background: #997979;
+}
+.result_histo img{
+  width: 30px;
+}

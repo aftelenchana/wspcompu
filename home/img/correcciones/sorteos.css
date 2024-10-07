@@ -1,0 +1,35 @@
+.img_sorteo {
+
+    display: block;
+    margin: 0 auto;
+
+}
+.buscador_new  img{
+  width: 225px;
+}
+.sorteo_empresa{
+  width: 50%;
+  margin: 0 auto;
+}
+.contendedor_sorteo .sorteos_m a{
+  display: inline-block;
+  color: #fff;
+}
+.contendedor_sorteo .sorteos_m:hover{
+  font-size: 18px;
+}
+.contendedor_sorteo .sorteos_m {
+  display: inline-block;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 6px;
+}
+.gana_ecuador {
+  background: #ECEF12;
+}
+.Empata_Ecuador {
+  background: #1912EF;
+}
+.pierde_ecuador {
+  background: #EF1212;
+}

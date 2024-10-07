@@ -1,0 +1,22 @@
+.contene_sin_resultados{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.contene_sin_resultados img{
+  width: 50%;
+}
+.texto_sin_resultados{
+  font-size: 25px;
+}
+.texto_sin_resultados .busqueda_sin_resu{
+  font-weight:bold;
+}
+
+
+@media (max-width:660px ) {
+  .contene_sin_resultados img{
+    width: 25%;
+  }
+}

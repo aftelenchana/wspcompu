@@ -1,0 +1,205 @@
+.contenedor_accion_banco{
+  text-align: center;
+}
+.contenedor_accion_banco img{
+  width: 50px;
+}
+.contenedor_accion_banco .accion {
+  display: inline-block;
+}
+.contenedor_accion_banco .deposito_dinero{
+  background: #FFC300;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border: solid 4px #c1c1c1;
+  border-radius: 5px;
+}
+.contenedor_accion_banco .retiro_dinero{
+  background: #61CE31;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border: solid 4px #c1c1c1;
+  border-radius: 5px;
+}
+.contenedor_accion_banco .accion:hover{
+  background: #232F3E;
+  color: #fff;
+  cursor: pointer;
+}
+
+.titu{
+  text-align: center;
+}
+.contendio_pedidos{
+   text-align: center;
+}
+.informacion_bancaria_usuario .titu_table {
+  background: #232F3E;
+  color: #fff;
+}
+
+.informacion_bancaria_usuario table{
+  margin: 0 auto;
+  text-align: center;
+    border-collapse: collapse;
+}
+.informacion_bancaria_usuario td{
+  width: 340px;
+  padding: 5px;
+  text-decoration: none;
+}
+.informacion_bancaria_usuario td,tr{
+  border: 1px solid #c1c1c1;
+}
+ .informacion_bancaria_usuario tr:nth-child(even){
+  background:  #a9a9a9 ;
+  color: #fff;
+}
+
+ .informacion_bancaria_usuario .saldo_total{
+   font-size: 30px;
+ }
+
+
+
+/**/
+.titu{
+  text-align: center;
+}
+.histial_bancario_general{
+   text-align: center;
+}
+.histial_bancario_general .titu_table {
+  background: #263238;
+  color: #fff;
+}
+.histial_bancario_general .titu_table table a{
+  text-decoration: none;
+}
+
+.histial_bancario_general table{
+  margin: 0 auto;
+    border-collapse: collapse;
+}
+.histial_bancario_general td{
+  width: 180px;
+  padding: 4px;
+  text-decoration: none;
+}
+.histial_bancario_general td,tr{
+  border: 1px solid #c1c1c1;
+}
+ .histial_bancario_general tr:nth-child(even){
+  background:   #eeeeee  ;
+  color: #000;
+}
+
+
+
+@media (max-width:770px ) {
+  .histial_bancario_general{
+    margin: 20px;
+  }
+.histial_bancario_general table{
+  width: 100%;
+}
+.histial_bancario_general table td{
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+}
+.histial_bancario_general table tr{
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #c1c1c1;
+  padding: 1em;
+  margin-bottom: 1em;
+
+}
+.histial_bancario_general .titu_table{
+  display: none;
+}
+.histial_bancario_general table td[data-titulo]{
+  display: flex;
+}
+.histial_bancario_general table td[data-titulo]::before{
+  content: attr(data-titulo);
+  width: 150px;
+  font-size: 14px;
+    font-weight: bold;
+}
+.histial_bancario_general td,tr{
+  border: none;
+}
+
+
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 770px) {
+  .histial_bancario_general,
+  .informacion_bancaria_usuario {
+    margin: 0;
+
+  }
+
+  .histial_bancario_general a {
+    font-size: 11px !important;
+    padding: 10px !important;
+
+  }
+
+  .histial_bancario_general a:hover{
+    background: #c1c1c1;
+    border-radius: 3px;
+  }
+
+  .histial_bancario_general button {
+    font-size: 11px !important;
+
+  }
+
+
+
+  .histial_bancario_general table,
+  .informacion_bancaria_usuario table {
+    width: 100%;
+
+  }
+  .histial_bancario_general table td,
+  .informacion_bancaria_usuario table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 11px !important;
+    word-break: break-all;
+  }
+  .histial_bancario_general table tr,
+  .informacion_bancaria_usuario table tr {
+    display: block;
+    border: none;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    font-size: 11px !important;
+  }
+  .histial_bancario_general table td[data-titulo],
+  .informacion_bancaria_usuario table td[data-titulo] {
+    text-align: left;
+    padding-left: 30%;
+    position: relative;
+    font-size: 11px !important;
+  }
+  .histial_bancario_general table td[data-titulo]::before,
+  .informacion_bancaria_usuario table td[data-titulo]::before {
+    content: attr(data-titulo);
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 11px !important;
+  }
+}

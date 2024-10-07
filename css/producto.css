@@ -1,0 +1,179 @@
+.contenedor_general_informacion_at{
+  padding: 25px;
+  margin: 10px;
+}
+
+.contenedor_general_informacion_at .acciones_producttos_at{
+border: solid 2px #f4f4f4;
+border-radius: 10px;
+}
+.informacion_productoat .row{
+  text-align: left;
+}
+.informacion_productoat h1{
+  padding: 0;
+  margin: 0;
+  letter-spacing: -2px;
+  font-weight: bold;
+}
+.informacion_productoat a{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 700;
+  color: #232F3E;
+
+}
+.calificacion_resultado_at{
+    letter-spacing: -1px;
+}
+.calificacion_resultado_at p{
+  padding: 0;
+  margin: 0;
+}
+.contenedor_general_informacion_at .precio_articulo{
+  color: #232F3E;
+  font-weight: 650px;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+.contenedor_general_informacion_at .imagener_contenededor_general_at .carousel-inner{
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+.disponible_envio_bajo{
+  letter-spacing: -1px;
+    font-weight: 700;
+}
+.dedima_precio{
+  font-size: 25px;
+}
+.disponible_envio_bajo{
+  padding: 0;
+  margin: 0;
+}
+.categorizadas_at p{
+  padding: 0;
+  margin: 0;
+}
+
+.especificacion_vendedres a{
+  text-decoration: none;
+  padding: 0px;
+  margin: 0;
+  color: #232F3E;
+  letter-spacing: -1px;
+    font-weight: 700;
+}
+.especificacion_vendedres p{
+  margin: 0;
+  padding: 0;
+}
+.especificacion_vendedres{
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+
+}
+.redes_at img{
+  width: 35px;
+}
+.redes_at{
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+.manuales{
+  text-align: center;
+}
+.descargar_manual img{
+  width: 30px;
+}
+.franja_superior{
+  background: #c1c1c1;
+}
+.contendedor_parametros_acturales{
+  padding: 15px;
+  margin: 15px;
+}
+.ficha_tecnica_at img{
+  width: 60px;
+}
+.video_at img{
+    width: 60px;
+}
+.producto_sugerido{
+  background:  #f3f3f3 ;
+  padding: 15px;
+  margin: 15px;
+}
+.producto_sugerido .carousel-inner{
+  width: 50px;
+}
+.precio_articulo_producto_sugerido {
+  font-size: 35px;
+}
+.titulo_producto_sugerido{
+  padding: 15px;
+  margin: 10px;
+  letter-spacing: -2px;
+    font-weight: 800;
+}
+.contenedor_video{
+  padding: 15px;
+  margin: 5px;
+}
+.barra_lateral_principal{
+  background: #c1c1c1;
+}
+
+.imagener_contenededor_general_at img{
+width: 400px;
+}
+
+
+.con-marca-de-agua {
+  position: relative;
+  overflow: hidden;
+}
+.con-marca-de-agua::after,
+.con-marca-de-agua-inferior::after {
+  content: 'guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com';
+  color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  font-size: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  pointer-events: none;
+  width: 200%;
+}
+
+.con-marca-de-agua::after {
+  top: 10%;
+}
+
+.con-marca-de-agua-inferior::after {
+  bottom: 10%;
+}
+
+
+
+
+
+
+@media screen and (max-width:700px ) {
+  .contenedor_general_informacion_at .imagener_contenededor_general_at .carousel-inner{
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width:450px ) {
+    .contenedor_general_informacion_at .imagener_contenededor_general_at .carousel-inner{
+      max-width: 240px;
+      margin: 0 auto;
+    }

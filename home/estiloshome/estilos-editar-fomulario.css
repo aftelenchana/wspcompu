@@ -1,0 +1,56 @@
+.formulario-resistro{
+  width: 450px;
+  margin: auto;
+}
+.formulario-resistro h1{
+  color: #3c93b0;
+}
+hr{
+  border: 0;
+  background: #ccc;
+  height: 1px;
+  margin: 10px 0;
+  display: block;
+}
+form {
+  background: #fff;
+  margin: auto;
+  padding: 20px 50px;
+  border: 1px solid #d1d1d1;
+}
+label {
+  display: block;
+  font-size: 12pt;
+  margin: 15px auto 5px auto;
+}
+input {
+  display: block;
+  width: 100%;
+  font-size: 11pt;
+  padding: 5px;
+  border: 1px solid #85929e;
+  border-radius: 5px;
+}
+
+.btn-save {
+  font-size: 12pt;
+  background: #12a4c6;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+  margin: 15px auto;
+}
+
+.alert {
+  width: 100%;
+  border-radius: 6px;
+  margin: 20px auto;
+}
+.msg-error{
+  color: #e65656;
+}
+.msg-save{
+  color: #126e00;
+}

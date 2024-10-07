@@ -1,0 +1,144 @@
+.titulo_leben{
+  text-align: center;
+}
+.opciones_generales{
+  width: 310px;
+  margin: 0 auto;
+}
+
+.opciones_generales img{
+  width: 30px;
+
+}
+
+.depositos{
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+
+}
+.depositos table{
+  width: 99%;
+  margin: 0 auto;
+}
+.depositos th{
+  padding: 5px;
+}
+.contenido_historial_general{
+  width: 75%;
+  font-weight: normal;
+  margin: 0 auto;
+  background: #c1c1c1;
+}
+.contenido_historial_general .usuario_general{
+  background: #232F3E;;
+  font-family: 'Signika Negative', sans-serif;
+  color: #fff;
+}
+
+.contenido_historial_general .usuario_general tr{
+  margin: 0px;
+  padding: 0px;
+}
+.usuario_general img{
+  width: 35px;
+}
+
+.cantidad_existente{
+  font-size: 30px;
+}
+.historial_general {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.historial_general table{
+  width: 99%;
+  margin: 0 auto;
+}
+
+.historial_general  img{
+  width: 19px;
+}
+.historial_general th{
+  padding: 3px;
+  margin: 6px;
+}
+
+.depositos_generales{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background: #5AE7EE;
+}
+
+.resultados_registros{
+  background: #3B8A16;
+}
+.resultados_registros table{
+  width: 99%;
+  margin: 0 auto;
+}
+.resultados_registros th{
+  padding: 5px;
+  margin:5px;
+}
+.depositos_generales img{
+  width: 20px;
+}
+.resulyado_depositos_generales table{
+  width: 99%;
+  margin: 0 auto;
+}
+
+.resulyado_depositos_generales th{
+  padding: 5px;
+  margin:5px;
+}
+.resultado_depositos_generales{
+  background: #DEEBD8;
+}
+
+
+
+.retiros_generales{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background: #C17263;
+}
+
+.resultados_registros_retiros{
+  background: #C17263;
+}
+.resultados_registros_retiros table{
+  width: 99%;
+  margin: 0 auto;
+}
+.resultados_registros_retiros th{
+  padding: 5px;
+  margin:5px;
+}
+.retiros_generales img{
+  width: 20px;
+}
+.resultado_retiros_generales table{
+  width: 99%;
+  margin: 0 auto;
+}
+
+.resultado_retiros_generales th{
+  padding: 5px;
+  margin:5px;
+}
+.resultado_retiros_generales{
+  background: #DEEBD8;
+}

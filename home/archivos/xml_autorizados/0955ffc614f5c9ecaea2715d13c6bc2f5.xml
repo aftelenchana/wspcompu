@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+    <estado>AUTORIZADO</estado>
+    <numeroAutorizacion>2312202207080210902500120020010000000039846951111</numeroAutorizacion>
+    <fechaAutorizacion>2022-12-23T06:26:29-05:00</fechaAutorizacion>
+    <ambiente>PRODUCCIÓN</ambiente>
+    <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<comprobanteRetencion id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>IZURIETA CAICEDO ANTONIO MICHAEL</razonSocial>
+    <nombreComercial>DISTRIBUIDORA SANTO DOMINGO</nombreComercial>
+    <ruc>0802109025001</ruc>
+    <claveAcceso>2312202207080210902500120020010000000039846951111</claveAcceso>
+    <codDoc>07</codDoc>
+    <estab>002</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000003</secuencial>
+    <dirMatriz>OLMEDO #6911 Y FRANKLIN TELLO Y SIMON BOLIVAR / LUIS TELLO (LAS PALMAS) / ESMERALDAS / ESMERALDAS</dirMatriz>
+  </infoTributaria>
+  <infoCompRetencion>
+    <fechaEmision>23/12/2022</fechaEmision>
+    <dirEstablecimiento>OLMEDO #6911 Y FRANKLIN TELLO Y SIMON BOLIVAR / LUIS TELLO (LAS PALMAS) / ESMERALDAS / ESMERALDAS</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+    <razonSocialSujetoRetenido>CALBAQ S.A.</razonSocialSujetoRetenido>
+    <identificacionSujetoRetenido>0990135630001</identificacionSujetoRetenido>
+    <periodoFiscal>12/2022</periodoFiscal>
+  </infoCompRetencion>
+  <impuestos>
+    <impuesto>
+      <codigo>1</codigo>
+      <codigoRetencion>312</codigoRetencion>
+      <baseImponible>1068.48</baseImponible>
+      <porcentajeRetener>1.75</porcentajeRetener>
+      <valorRetenido>18.70</valorRetenido>
+      <codDocSustento>01</codDocSustento>
+      <numDocSustento>001001000407804</numDocSustento>
+      <fechaEmisionDocSustento>20/12/2022</fechaEmisionDocSustento>
+    </impuesto>
+  </impuestos>
+  <infoAdicional>
+    <campoAdicional nombre="DIRECCION">23C #S/N Y NA, TARQUI</campoAdicional>
+    <campoAdicional nombre="TELEFONO">0999612369</campoAdicional>
+    <campoAdicional nombre="EMAIL">javiles@calbaq.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature591078">
+<ds:SignedInfo Id="Signature-SignedInfo697625">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID703862" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature591078-SignedProperties825257">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>KWk7YaDUDVWvG91uJzn5AOzym80=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1830886">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>gp9irxU2jmqXLE+ufQuvRZHCzCY=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-261170" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>QrNkby4d8hRkKYJOZKJN/Jz75ZA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue848008">
+eqZOzirAQzNky+uhDnCBbusUgGgvNQmSSIo3ogRYa1n78ydMJF858jcdNEJ5VYu0sBEzoeJNkXRz
+hz88HLCIMh8plrTAUgDVc5h/5I9oEAA4Ih03HA34CsCNH2nwWIxfUqU2+8GCPnvAF2QNoaJcKP8A
+nNLoSWLmnHNQlZXMndb+Md/6V8Qp+u7WJGVdDqXgt8zibtVC/ge10fwCGaenrb0wu0xU1s46P1Of
+nlckmXZV/ALgdl1rsnkzHzNz7VQNjVfxuo6GH+z0/NFWBis4JGBHtbKKq9XNaVGJOlaBCLvwKWVy
+GIGcDlFR3yRGNo3ffbGIqcqdhYzVMp4DS8yhHA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1830886">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIL7DCCCdSgAwIBAgIEFjsaXDANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMjEyMTQxNDMyMThaFw0yMzEyMTQxNDMyMThaMIGgMSkw
+JwYDVQQDDCBBTlRPTklPIE1JQ0hBRUwgSVpVUklFVEEgQ0FJQ0VETzEVMBMGA1UEBRMMMTQxMjIy
+MDk0MTU1MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04x
+HTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAOQy2akrkGAviQGgtwv4W1OkFhIPAQEx8VycT1zPg2ZdtBe8nhxu
+qlyRZVd7Ss1P1c3ts4blb8E4fDjexrmc9u9WnLPoJjVEffY7Pdz5vA/hP/Y2W7eT3EoloDW8uu/i
+VU0vKrE3lRQsRMXoTaDRAC54V9WrIWX/DAu1mt43U0fxrn3bUexI6HaGjcz7ooyunbJDwMJQuU5q
+ZYao4ExsVTBolCBzwstX93czqzeHxuCjIh+h0AsQ+iRJIuFcxcLD18AOQbuDWIZ1FslqTtyzaaa6
+NGxbRhMPx6lbc4zG+suSywUjvKBmzye+l68Wg7ny+zi8+VjH25rvUg8qWyXfd/kCAwEAAaOCBzEw
+ggctMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYB
+BQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMv
+ZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuGgbhsZGFw
+Oi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklD
+QUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBE
+RSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZvY2F0aW9u
+TGlzdD9iYXNlMCQGA1UdEQQdMBuBGWl6dXJpZXRhbWljaGFlbEBnbWFpbC5jb20wggEGBgNVHSAE
+gf4wgfswWgYKKwYBBAGCpnICBzBMMEoGCCsGAQUFBwICMD4ePABDAGUAcgB0AGkAZgBpAGMAYQBk
+AG8AIABkAGUAIABQAGUAcgBzAG8AbgBhACAATgBhAHQAdQByAGEAbDCBnAYKKwYBBAGCpnICATCB
+jTCBigYIKwYBBQUHAgEWfmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3AtY29udGVu
+dC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMgZGUgQ2Vy
+dGlmaWNhZG8gUGVyc29uYSBOYXR1cmFsLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGgP4Y9aHR0
+cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2Nz
+cKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBT
+RUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCBx6CBxKCB
+wYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUg
+Q0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9jZXJ0aWZp
+Y2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRv
+cjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9j
+bWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VS
+SVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VD
+VVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUJrDRKMJG/oqOxaEUAcyueQCpDpAwKwYD
+VR0QBCQwIoAPMjAyMjEyMTQxNDMyMThagQ8yMDIzMTIxNDE0MzIxOFowCwYDVR0PBAQDAgXgMBoG
+CisGAQQBgqZyAwEEDAwKMDgwMjEwOTAyNTAaBgorBgEEAYKmcgMJBAwMCkVTTUVSQUxEQVMwEQYK
+KwYBBAGCpnIDIgQDDAEuMD4GCisGAQQBgqZyAwcEMAwuQ09MT04gTTEyIFNMNSBZIFBMSU5JTyBQ
+QUxPTUlOTyBZIEhPTUVSTyBMT1BFWjAfBgorBgEEAYKmcgMCBBEMD0FOVE9OSU8gTUlDSEFFTDAf
+BgorBgEEAYKmcgMgBBEMDzAwMTAwMjAwMDMyMDMzOTARBgorBgEEAYKmcgMjBAMMAS4wEwYKKwYB
+BAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBgGCisGAQQBgqZyAwMECgwI
+SVpVUklFVEEwEQYKKwYBBAGCpnIDHgQDDAEuMB0GCisGAQQBgqZyAwsEDwwNMDgwMjEwOTAyNTAw
+MTARBgorBgEEAYKmcgMdBAMMAS4wFwYKKwYBBAGCpnIDBAQJDAdDQUlDRURPMBoGCisGAQQBgqZy
+AwgEDAwKMDk4ODIxMDAwNTANBgkqhkiG9w0BAQsFAAOCAgEAeJRm5FMoFTteV16JX5tzqIUw42VW
+Ot/zb0j4q/0Smy0cYZfhLFxTTl2DufYtJcOyRNMfRIOpfRq5/L5fheNAZAeEvhhPGAITWz+GxYL3
+vg4vVdeIXZzCKNhYVfzUmSQHkbDtb/DKcgF7awRhdNq2eBdv9DB6e1phG/jGmZZs6eCllf6b+J8N
+0Z5NMPwJYmzvJeEydZYgRqSuMNecYLjKtdPdCkD6DOLEA0BcbTHpx0r2WdxRxHTWtNbOeAAkTAfO
+hTVVMjEv/VLrPrt33KqTZ9D7cJkKMChhIVUbEvTLvAH+uGdF5DnZvWO/qlwydKqzPhHYk7HZVB4U
++y95jwIjSDOKvi60S0oBfmc/iF0xHq31e0+PdyZEk6L5gwijO6Eskc4ufCEPaGACXk6/D2OWbMWX
+9QvAN2ILdsMP2+I5qDuHZ9fRS2N6DjJtC9ieCOOJYd+DalObPCpgsFkpcklHcx6UGMSqXxWFDD/4
+7rylETB2K5TtIwwqigjriU8zkxJU7sTSjWu1DAIwkS13SftD3z75wIJa4Hz/uQdyfHMecu4vCwLB
+4eryQNxzIi0QbqF9l9KFCFPqddRbYREiSPPgRJ+xD0JELbnMjal0Q88ieO+OzmCgj6897zXCMiPq
+JOacXNdVygS/yvIOVZPtFkHxsgEAKtvs+cTekCr3f25dX94=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5DLZqSuQYC+JAaC3C/hbU6QWEg8BATHxXJxPXM+DZl20F7yeHG6qXJFlV3tKzU/Vze2zhuVvwTh8
+ON7GuZz271acs+gmNUR99js93Pm8D+E/9jZbt5PcSiWgNby67+JVTS8qsTeVFCxExehNoNEALnhX
+1ashZf8MC7Wa3jdTR/GufdtR7EjodoaNzPuijK6dskPAwlC5TmplhqjgTGxVMGiUIHPCy1f3dzOr
+N4fG4KMiH6HQCxD6JEki4VzFwsPXwA5Bu4NYhnUWyWpO3LNppro0bFtGEw/HqVtzjMb6y5LLBSO8
+oGbPJ76XrxaDufL7OLz5WMfbmu9SDypbJd93+Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature591078-Object658210"><etsi:QualifyingProperties Target="#Signature591078"><etsi:SignedProperties Id="Signature591078-SignedProperties825257"><etsi:SignedSignatureProperties><etsi:SigningTime>2022-12-23T06:26:28-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>EiXg1G+YZ7Juk/WibXpgSAe0Ceo=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>372972124</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-261170"><etsi:Description>DOCUMENTO EMITIDO CON ECUAFACT. LA FACTURACION ELECTRONICA DEL ECUADOR. Visitenos en http://www.ecuanexus.com </etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></comprobanteRetencion>]]></comprobante> <mensajes>  </mensajes> </autorizacion>

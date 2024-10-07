@@ -1,0 +1,65 @@
+.bodyModal_deposito_comprobante{
+  font-size: 14px;
+}
+.bodyModal_deposito_comprobante .identificacion_usuario{
+  color: #EF7312;
+}
+.bodyModal_deposito_comprobante  .entrada{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 3px;
+  margin-top: 3px;
+}
+
+.bodyModal_deposito_paypal .identificacion_usuario{
+  color: #EF7312;
+}
+.bodyModal_deposito_paypal  .entrada{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 3px;
+  margin-top: 3px;
+}
+.bodyModal_deposito_paypal label{
+  display: block;
+ background: #232F3E;
+ color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 6px;
+}
+
+.bodyModal_retiro_paypal .identificacion_usuario{
+  color: #EF7312;
+}
+
+.bodyModal_retiro_paypal  .entrada{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 3px;
+  margin-top: 3px;
+}
+
+
+.bodyModal_retiro_banca .identificacion_usuario{
+  color: #EF7312;
+}
+
+.bodyModal_retiro_banca  .entrada{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 3px;
+  margin-top: 3px;
+}
+.genearl_alert {
+   background: #232F3E;
+   color: #fff;
+   width: 60%;
+   margin: 0 auto;
+   border-radius: 10px;
+}

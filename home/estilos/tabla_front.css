@@ -1,0 +1,55 @@
+
+/* Estilo base para el contenedor con clase raíz histo_banca */
+.histo_banca .container {
+  max-width: 100%;
+  padding: 0;
+  background: linear-gradient(to right, #ffffff, #e6e6e6); /* Degradado de izquierda a derecha */
+}
+
+/* Estilo para la fila de tarjetas */
+.histo_banca .row {
+  margin: 0;
+}
+
+/* Estilo para las columnas individuales */
+.histo_banca .col {
+  padding: 0; /* Elimina el espaciado interno para que no haya espacio entre las tarjetas */
+}
+
+/* Estilo para las tarjetas */
+.histo_banca .card {
+  margin: 0; /* Elimina cualquier margen alrededor de las tarjetas */
+  border-radius: 0; /* Elimina los bordes redondeados */
+  background: transparent; /* Fondo transparente para que se vea el degradado */
+}
+
+/* Estilo para el cuerpo de la tarjeta */
+.histo_banca .card-body {
+  padding: 1rem; /* Añade un poco de espaciado interno */
+}
+
+
+.imagen_token_seguridad{
+  width: 15%;
+}
+
+@media (max-width: 768px) {
+  .imagen_token_seguridad{
+    width: 50%;
+  }
+
+}
+/* Estilos para dispositivos móviles */
+@media (max-width: 576px) {
+  .histo_banca .card-body {
+    padding: 0.5rem; /* Reduce el espaciado interno en dispositivos móviles */
+  }
+
+  .histo_banca .card i {
+    font-size: 1.5rem; /* Reduce el tamaño de los íconos en dispositivos móviles */
+  }
+
+  .histo_banca .card .card-title {
+    font-size: 0.8rem; /* Reduce el tamaño del texto en dispositivos móviles */
+  }
+}

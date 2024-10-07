@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comprobanteRetencion id="comprobante" version="2.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>GUIRACOCHA SEILEMA</razonSocial>
+    <nombreComercial>GUIRACOCHA SEILEMA</nombreComercial>
+    <ruc>0923013288001</ruc>
+    <claveAcceso>1911202307092301328800120010030000001021234567816</claveAcceso>
+    <codDoc>07</codDoc>
+    <estab>001</estab>
+    <ptoEmi>003</ptoEmi>
+    <secuencial>000000102</secuencial>
+    <dirMatriz>AMBATO ECUADOR</dirMatriz>
+  </infoTributaria>
+  <infoCompRetencion>
+    <fechaEmision>19/11/2023</fechaEmision>
+    <dirEstablecimiento>AMBATO ECUADOR</dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+    <parteRel>NO</parteRel>
+    <razonSocialSujetoRetenido>MENDOZA JARAMILLO DENIS ESTHER</razonSocialSujetoRetenido>
+    <identificacionSujetoRetenido>0919325126001</identificacionSujetoRetenido>
+    <periodoFiscal>11/2023</periodoFiscal>
+  </infoCompRetencion>
+  <docsSustento>
+    <docSustento>
+      <codSustento>04</codSustento>
+      <codDocSustento>04</codDocSustento>
+      <numDocSustento>001002000000001</numDocSustento>
+      <fechaEmisionDocSustento>05/11/2023</fechaEmisionDocSustento>
+      <numAutDocSustento>0511202301091932512600120010020000000011234567810</numAutDocSustento>
+      <pagoLocExt>01</pagoLocExt>
+      <totalSinImpuestos>2</totalSinImpuestos>
+      <importeTotal>2.24</importeTotal>
+      <impuestosDocSustento>
+        <impuestoDocSustento>
+          <codImpuestoDocSustento>2</codImpuestoDocSustento>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <baseImponible>2</baseImponible>
+          <tarifa>2</tarifa>
+          <valorImpuesto>0.24</valorImpuesto>
+        </impuestoDocSustento>
+      </impuestosDocSustento>
+      <retenciones>
+        <retencion>
+          <codigo>2</codigo>
+          <codigoRetencion>304B</codigoRetencion>
+          <baseImponible>2</baseImponible>
+          <porcentajeRetener>4</porcentajeRetener>
+          <valorRetenido>8</valorRetenido>
+        </retencion>
+      </retenciones>
+      <pagos>
+        <pago>
+          <formaPago>20</formaPago>
+          <total>1.24</total>
+        </pago>
+      </pagos>
+    </docSustento>
+  </docsSustento>
+  <infoAdicional>
+    <campoAdicional nombre="email">alejiss401997</campoAdicional>
+  </infoAdicional>
+</comprobanteRetencion>

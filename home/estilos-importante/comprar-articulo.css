@@ -1,0 +1,32 @@
+
+.vista_comprar_articulo .card{
+  padding: 20px;
+  box-shadow:
+     inset 0 -3em 3em rgba(0,0,0,0.1),
+           0 0  0 2px rgb(255,255,255),
+           0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.vista_comprar_articulo .card{
+  margin: 0 auto;
+}
+
+.vista_comprar_articulo .contenedor_info_articulo{
+  padding: 5px;
+  margin: 10px;
+}
+.contenedor_pass{
+  padding: 15px;
+  margin: 15px;
+}
+.contenedor_pass form{
+  width: 100%;
+}
+.contenedor-boton-pago{
+  text-align: center;
+background-image: radial-gradient(circle at 50% 50%, #fffffa 0, #e0e6f1 50%, #becde8 100%);
+border-radius: 10px;
+}
+.contenedor-boton-pago button{
+  margin: 0 auto;
+
+}

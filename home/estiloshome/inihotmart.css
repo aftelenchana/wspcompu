@@ -1,0 +1,78 @@
+.ini_form{
+  width: 50%;
+  margin: 0 auto;
+  padding: 6px;
+  text-align: center;
+  border: solid 1px #232F3E;
+}
+.ini_form img{
+  width: 10%;
+}
+.ini_form h2{
+  color: #FF5733;
+font-weight: bold;
+}
+.ini_form select{
+  display: block;
+  margin: 0 auto;
+
+}
+.ini_form input{
+  display: block;
+  margin: 0 auto;
+}
+.ini_form .sbn_ini{
+  padding: 3px;
+  width: 30%;
+
+}
+.ini_form .sbn_ini:hover{
+  cursor: pointer;
+  background: #232F3E;
+  color: #fff;
+  width: 32%;
+}
+
+
+@media (max-width:800px ) {
+  .ini_form .sbn_ini{
+    padding: 3px;
+    width: 50%;
+
+  }
+  .ini_form{
+    width: 70%;
+  }
+  .ini_form img{
+    width: 30%;
+  }
+
+}
+@media (max-width:322px ) {
+  .ini_form .sbn_ini{
+    padding: 3px;
+    width: 60%;
+
+  }
+  .ini_form{
+    width: 90%;
+  }
+  .ini_form img{
+    width: 33%;
+  }
+
+}
+@media (max-width:250px ) {
+  .ini_form .sbn_ini{
+    padding: 3px;
+    width: 80%;
+
+  }
+  .ini_form{
+    width: 90%;
+  }
+  .ini_form img{
+    width: 33%;
+  }
+
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>TINTICOOS</razonSocial>
+    <nombreComercial>TINTICOOS</nombreComercial>
+    <ruc>1002796462001</ruc>
+    <claveAcceso>1203202301100279646200120010010000000031234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000003</secuencial>
+    <dirMatriz>VICENTE ROCAFUERTE Y GARCíA MORENO</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>12/03/2023</fechaEmision>
+    <dirEstablecimiento>VICENTE ROCAFUERTE Y GARCíA MORENO</dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ALEX FERNADO TELENCHANA</razonSocialComprador>
+    <identificacionComprador>1804843900</identificacionComprador>
+    <totalSinImpuestos>3</totalSinImpuestos>
+    <totalDescuento>0</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>3</baseImponible>
+        <valor>0.36</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>3.36</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>3.36</total>
+        <plazo>1</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>1819</codigoPrincipal>
+      <descripcion>descripcion</descripcion>
+      <cantidad>3</cantidad>
+      <precioUnitario>1</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>3</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>3</baseImponible>
+          <valor>0.36</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="email">tinticoos@gmail.com</campoAdicional>
+  </infoAdicional></factura>

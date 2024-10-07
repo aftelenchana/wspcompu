@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>MENDOZA JARAMILLO DENIS ESTHER</razonSocial>
+        <nombreComercial>GUI-ART-PRINT</nombreComercial>
+        <ruc>0919325126001</ruc>
+        <claveAcceso>0511202301091932512600120021000000000078085606711</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>002</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000000007</secuencial>
+        <dirMatriz>Ciudadela: URBANIZACION VALLE VICTORIA Barrio: MUCHO LOTE 2 Número: VILLA 21 Manzana: 2831 </dirMatriz>
+        <contribuyenteRimpe>CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE</contribuyenteRimpe>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>05/11/2023</fechaEmision>
+        <dirEstablecimiento>Calle: JOSE MASCOTE Número: 2225 Intersección: FEBRES CORDERO-CAPITAN NAJERA </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>GUIRACOCHA SEILEMA XAVIER LEONARDO</razonSocialComprador>
+        <identificacionComprador>0923013288001</identificacionComprador>
+        <totalSinImpuestos>2.65</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>2.65</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>2.65</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>2.00</total>
+            </pago>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>0.65</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>REX1000</codigoPrincipal>
+            <descripcion>RECETARIO</descripcion>
+            <cantidad>50.0</cantidad>
+            <precioUnitario>0.05299</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>2.65</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="BLANCO Y NEGRO"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>2.65</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">044545378</campoAdicional>
+        <campoAdicional nombre="Email">lid.asesoria.cit@gmail.com</campoAdicional>
+        <campoAdicional nombre="PRUEBA">PARA REALIZAR RETENCION Y NOTA DE CREDITO</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-ab5bd9b7-4512-4a59-80a5-d6de1aa7e4ab"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-ab5bd9b7-4512-4a59-80a5-d6de1aa7e4ab-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Ju1Fx7thDGYhg3DjcXt2f5pkNUmFs6FEyOG37nDh++I=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-ab5bd9b7-4512-4a59-80a5-d6de1aa7e4ab-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>iR9eC6yl9MqAcO1BC6DAgXNxhdKzev0KcstSCPpydIA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-ab5bd9b7-4512-4a59-80a5-d6de1aa7e4ab-sigvalue">XrdtfZMFlngN0k6nma95DdMxkbznIoUvEC1HDrpWT03ZMNOB2FlF8ex20UTWrzygFDqeR9AQcrB+YOsNnzxA9pKBEAYRve+vsCmdxOpmfIsVlWJG7zTsoOqQBA9i/fFdJJ1DrwH1yfeyJvlVvaGykul6cMiqSF6Z2mEvlYCY60uh/oc4lcebBh2Yy31XJYtZ1WKAAF2LleHvJVKcE4SjToPxD58kj4lnXV61eAaWvvEewd1W6JaQH4Nu5pnqp4YQE3Lu7L7/zwCHJKIjgmT9coVCAQYeM3paFqnoybCGcXbcbCUhAvuV1uy6pg8tM+g4e9TWUGp5UZJo6icECI8Rbg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-ab5bd9b7-4512-4a59-80a5-d6de1aa7e4ab"><xades:SignedProperties Id="xmldsig-ab5bd9b7-4512-4a59-80a5-d6de1aa7e4ab-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2023-11-05T19:51:22.526-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>sjE0E823nHyEfBbL5ugdNzJlxnbWVHddEZ1aq9gBiNE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>2041820841738006101</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-ab5bd9b7-4512-4a59-80a5-d6de1aa7e4ab-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>

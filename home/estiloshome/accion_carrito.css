@@ -1,0 +1,18 @@
+.contador_productos{
+    padding: 3px;
+    margin: 3px;
+}
+.cajon_p{
+    background-color: #c1c1c1;
+    width: 30%;
+    display: inline-block;
+}
+.cajon_p:hover{
+    cursor: pointer;
+}
+.sumar_producto:hover{
+background: #5DDC37;
+}
+.restar_prodcuto:hover{
+    background: #FF5733;
+    }

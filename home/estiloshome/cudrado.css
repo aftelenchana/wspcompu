@@ -1,0 +1,129 @@
+
+.inter{
+  width:230px;
+  display: inline-block;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.inter img{
+  width: 227px;
+  height: 240px;
+  display: inline-block;
+  text-align: center;
+  background-color: transparent;
+    border: 0px solid;
+
+}
+.inter p{
+  text-align: center;
+  width: 100%;
+
+}
+.mis-productos{
+  padding-left: 25px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.pep{
+  padding-bottom: 25px;
+}
+.tipo{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 0;
+  color: #F9534B;
+}
+
+.tipo2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 0;
+  color: #C7C990;
+
+}
+.tipo3{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 0;
+  color: #24FA02;
+
+}
+.conte{
+  padding-bottom: 25px;
+  display: inline-block;
+}
+.masin{
+  padding-bottom: 15px;
+}
+@media screen and (max-width:800px ){
+  .inter{
+    width:100%;
+    padding-left: 0;
+    margin-left: 0;
+    display: inline-block;
+  border-color: #4C5484;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 25px;
+    text-align: center;
+  }
+  .mis-productos{
+    width: 100%;
+    font-family: 'Do Hyeon', sans-serif;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .conte{
+    width: 90%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .pep{
+    display: inline-block;
+    padding: 0;
+    margin-left: 0;
+    border-left: 0;
+  }
+  .tipo{
+   display: inline-block;
+   width: 100%;
+   font-size: 30px;
+  }
+
+  .tipo2{
+   display: inline-block;
+   width: 100%;
+   font-size: 30px;
+
+  }
+  .tipo3{
+   display: inline-block;
+   width: 100%;
+   font-size: 30px;
+
+  }
+  .fff{
+    display: inline-block;
+    padding-bottom:  25px;
+
+  }
+  .inter img{
+    width: 200px;
+    height: 200px;
+    padding-left: 0;
+    margin-left: 0;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+      border: 0px solid;
+  }
+  .inter .precio{
+    font-size: 50px;
+  }
+
+
+}

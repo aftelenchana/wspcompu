@@ -1,0 +1,224 @@
+.titulo {
+  text-align: center;
+  font-size: 13px;
+}
+
+.informacion_total{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+ .info_personal{
+   display: inline-block;
+   width: 500px;
+   height: 320px;
+   text-align: center;
+   padding-left: 5px;
+   margin-left: 5px;
+   border-color: #4C5484;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 9px;
+ }
+ .info_empresarial {
+   display: inline-block;
+   width: 500px;
+   height: 320px;
+   text-align: center;
+   padding-left: 5px;
+   margin-left: 5px;
+   border-color: #4C5484;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 9px;
+ }
+
+.informacion_total td{
+  padding: 5px;
+  margin: 5px;
+}
+ .informacion_total .result{
+  width: 200px;
+   background: #c1c1;
+   border-radius: 3px;
+ }
+
+ .file_empre{
+   margin-top: 5px;
+   padding-top: 5px;
+   text-align: center;
+   margin-bottom: 50px;
+ }
+
+ .codigo_qr{
+   display: inline-block;
+   width: 40%;
+   height: 355px;
+   text-align: center;
+   padding-left: 5px;
+   margin-left: 5px;
+   border-color: #4C5484;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 9px;
+ }
+ .identificador{
+   display: inline-block;
+   width: 40%;
+   height: 355px;
+   text-align: center;
+   padding-left: 5px;
+   margin-left: 5px;
+   border-color: #4C5484;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 9px;
+ }
+
+.identificador .titu_indentificador{
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.caract_ {
+  font-size: 11px;
+}
+
+.caract_ .ventaja{
+  text-align: left;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.caract_ .list_ventaja {
+  text-align: left;
+  padding-left: 19px;
+  margin-left: 19px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+
+
+.identificador .enlace_generador_pdf{
+  margin: 0 auto;
+  text-align: center;
+  background: #c1c1c1;
+  margin-top: 39px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  height: 48px;
+  width: 250px;
+  border-radius: 3PX;
+
+}
+
+
+
+ .file_empre .codigo_qr .img_qr {
+   display: inline-block;
+   width: 175PX;
+   height: 178px;
+
+ }
+ .titulo_qr {
+   font-size: 11px;
+   padding-top: 5px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-bottom: 5px;
+ }
+
+ .titulo_qr img {
+   width: 50px;
+ }
+
+
+ .file_empre .codigo_qr .img_qr img{
+   width: 170px;
+
+ }
+.enlace_generador{
+  margin: 0 auto;
+  text-align: center;
+  background: #c1c1c1;
+  margin-top: 15px;
+  padding-top: 15px;
+  height: 48px;
+  width: 250px;
+  border-radius: 3PX;
+}
+
+
+
+/*Estilos para agregar  el modal de PLAN*/
+.modal_add_plan  select{
+  display: block;
+  width: 255px;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+.modal_principal .modal_secundario button {
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.modal_principal .modal_secundario p{
+  display: inline-block;
+}
+/*Estilos para ver  el modal de PLAN*/
+
+.modal_principal .modal_secundario a {
+	padding: 5px;
+	background: #c1c1c1;
+	width: 300px;
+	border-radius: 3px;
+	margin-top: 20px;
+  margin-left: 64px;
+}
+.modal_ver_plan {
+  font-size: 13px;
+}
+.modal_ver_plan table {
+	margin-left: 50px;
+}
+.modal_ver_plan td {
+  padding: 7px;
+  margin: 4px;
+  background: #BED7E2;
+  width: 170px;
+  border-radius: 3px;
+}
+.modal_nombres p{
+  display: inline-block;
+}
+
+
+.alert  .alerta_positiva{
+  color: #13B21A;
+}
+.alert  .alerta_negativa{
+  color: #F92323;
+}
+
+
+
+/*sendDataedit_apellidos*/
+.modal_principal .modal_secundario a {
+	padding: 5px;
+	background: #c1c1c1;
+	width: 300px;
+	border-radius: 3px;
+	margin-top: 20px;
+	margin-left: 64px;
+}
+
+@media screen and (max-width:700px ) {
+}

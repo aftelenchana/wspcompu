@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notaCredito id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>GUIBIS.COM</razonSocial>
+    <nombreComercial>GUIBIS.COM</nombreComercial>
+    <ruc>1716857576001</ruc>
+    <claveAcceso>1110202304171685757600120010010000010201234567811</claveAcceso>
+    <codDoc>04</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000001020</secuencial>
+    <dirMatriz>PRUEBA </dirMatriz>
+  </infoTributaria>
+  <infoNotaCredito>
+    <fechaEmision>11/10/2023</fechaEmision>
+    <dirEstablecimiento>PRUEBA </dirEstablecimiento>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ERICK LASCANO</razonSocialComprador>
+    <identificacionComprador>1720138286</identificacionComprador>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <codDocModificado>01</codDocModificado>
+    <numDocModificado>001-001-000001019</numDocModificado>
+    <fechaEmisionDocSustento>11/10/2023</fechaEmisionDocSustento>
+    <totalSinImpuestos>2.5</totalSinImpuestos>
+    <valorModificacion>2.80</valorModificacion>
+    <moneda>DOLAR</moneda>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>2.5</baseImponible>
+        <valor>0.3</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <motivo>Error</motivo>
+  </infoNotaCredito>
+  <detalles>
+    <detalle>
+      <descripcion>Hola mundo</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>2.5</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>2.5</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>2.5</baseImponible>
+          <valor>0.3</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="EMAIL">guibis-ecuador@guibis.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature828867">
+<ds:SignedInfo Id="Signature-SignedInfo918595">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID973067" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature828867-SignedProperties301380">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>3jCEdubNLSND6o2raNOZ+C6Uq/4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1290056">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>w92i0+EVf6bH/FjdMYR7JtL2rmQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-241440" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>rgD8B3e5b0Iq34yZl5KbKSMdTtE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue827237">
+DWrfXZ/Y3FfGC6zUfz3+RrXMjN3Sz++15SIvOspP2diYX85GpmDeBFgZdXGGYk6iEyYwJVSWrH1B
+Hcz0iPAAs6NHgH6y7cOiAKFnD0+pFT3WTVDB7kQt+S5qQhonNLa9lC4UskxvZH8LWUe4zPLtwnnX
++1polPJ6SGqn811H4Ycl0QB31cWOPeeb/XY8+PUOanRuiljcwuQxWYe5BxA30F+IuCZBJl15hw+V
+mI++U4idWoV8Dg0wgpwlKqk8GAU8Nore6v1jG+mxlJZT2yZBG9C1xVhd68QCAZ5rjNEf+Cq3tcR2
+tl4zcQFFHHRVtqeTRF+jWLcSkXLt6pfYcnh9wg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1290056">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJFDCCBvygAwIBAgIIASqecWI2P7IwDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTIyMTAyNDAwMzIwMFoXDTIzMTAyNDAwMzIwMFowgbIxCzAJBgNVBAYTAkVDMR0wGwYDVQQEDBRT
+QUFWRURSQSBERSBMQSBDVUVWQTEaMBgGA1UEKgwRQ0hSSVNUSUFOIE1BUkNFTE8xGTAXBgNVBAUT
+EElEQ0VDLTE3MTY4NTc1NzYxLzAtBgNVBAMMJkNIUklTVElBTiBNQVJDRUxPIFNBQVZFRFJBIERF
+IExBIENVRVZBMRwwGgYDVQRhDBNUSU5FQy0xNzE2ODU3NTc2MDAxMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAo11aJL191EEbwvv49pAt15kxNf6r4YsEpKO86URGul3yZgnhK4erdE7N
+4faQ9wbZzNnMc+sIhNXrWFvqAGlp15tcK6c9YxZcB7oRq0tdJ3tYw/5A+QDPQLf3rir2zBLmw9EO
+SuFbKH/dcw/YIMhiDb8oraSXcbkh3H+xvDdJ4u6SNMpSdMFWccvRdrfqpe7N9v5DeidIE8MAYsdi
+rT6g6rwYDb+zLciLHxO6i47QZVLZIt/ibED1NiN2iMecfm0fmGJG7fE0lhIqV6EwisEUcKPZjUOJ
+bTXQjsTs2Hdc2UWW0QxWGPalGOE2EQJE8yWlvact2sNlePZR4vRDhrDEVQIDAQABo4IEJDCCBCAw
+gdcGCCsGAQUFBwEBBIHKMIHHMFUGCCsGAQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNvbS9w
+dWJsaWMvZG93bmxvYWQvdHNwX2NlcnRpZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsGAQUF
+BzABhipodHRwOi8vb2NzcDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYBBQUH
+MAGGKmh0dHA6Ly9vY3NwMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4EFgQU
+gWnum3ZpvQIijKfKANXQzESMePcwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84HRqni
+o2jw4RGydJJz/TCBmQYDVR0gBIGRMIGOMIGLBgwrBgEEAYLxNmYCAQEwezA3BggrBgEFBQcCARYr
+aHR0cHM6Ly93d3cudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvZHBjLWVjLzBABggrBgEFBQcCAjA0
+DDJDRVJUSUZJQ0FETyBERSBQRVJTT05BIE5BVFVSQUwgTyBGSVNJQ0EgRU4gQVJDSElWTzCBjwYD
+VR0fBIGHMIGEMECgPqA8hjpodHRwOi8vY3JsMS51YW5hdGFjYS5jb20vcHVibGljL3BraS9jcmwv
+Q0Eyc3Vib3JkaW5hZGEuY3JsMECgPqA8hjpodHRwOi8vY3JsMi51YW5hdGFjYS5jb20vcHVibGlj
+L3BraS9jcmwvQ0Eyc3Vib3JkaW5hZGEuY3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggr
+BgEFBQcDAgYIKwYBBQUHAwQwggGXBgNVHREEggGOMIIBioEkY21zc29sdWNpb25lc2NvbnRhYmxl
+c3RyaWJAZ21haWwuY29toBsGCysGAQQBgvE2ZgMBoAwMCjE3MTY4NTc1NzagIgYLKwYBBAGC8TZm
+AwKgEwwRQ0hSSVNUSUFOIE1BUkNFTE+gGQYLKwYBBAGC8TZmAwOgCgwIU0FBVkVEUkGgHAYLKwYB
+BAGC8TZmAwSgDQwLREUgTEEgQ1VFVkGgMAYLKwYBBAGC8TZmAwegIQwfRlJBTkNJU0NPIFFVSU5B
+QkFOREEgWSBQQVNBSkUgNKAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk5Mjk1NjA1NaAbBgsrBgEE
+AYLxNmYDCaAMDApTQU5HT0xRVcONoB4GCysGAQQBgvE2ZgMLoA8MDTE3MTY4NTc1NzYwMDGgEwYL
+KwYBBAGC8TZmAwygBAwCRUOgKQYLKwYBBAGC8TZmAzKgGgwYUEVSU09OQSBOQVRVUkFMIE8gRklT
+SUNBoBgGCysGAQQBgvE2ZgMzoAkMB0FSQ0hJVk8wDQYJKoZIhvcNAQELBQADggIBALgGuWl6rNJH
+FHqL8m4RP1R4crhku3/Db4E6hEnOLwNpxmUW/ncSJ+K8LQJFyvbdzHci3xxbEhd5aF+fA7jCCYlv
+Dh3qR8ZXyBlSgM7rRyNfo/ivULlCy87x0POjS7Gun022jyDKVcO3J/7neogKwPx2VxGwyNucaR3N
+4ojagWNbDbyUl9tgKngTm2lwoWAocda7EkpxAyE4cwppv/43wwYgUud153yO8SIgdXyhSEDVLJY8
+EV5dSCPsjljK1LzaikcL4fYroQ7weXS0zg4EVwn7eys5dpq4galHccbeVjAOpyprRzt7z5Z9VKon
+6BqNRoSvZTEZrK0P1Ox/Hh/4Z6RbpCcphkYzApuJKRiNcpgALwIF72JLcCjrSqsHHEioEH+WObuZ
+ls7DWdAodNrNt+PzGSYLJscX2ydIszqjvBG5GcrYsxFsjRt4sB4eNDKlf/yx7ihR8cG7Wb7LYvCB
+zCR/+W6MFrQoWKzItxGoZlnHN2cVh8oqU4MoDIOVbRP3BXr4g1366gXgI6kjJy+f3MKmrUPWtJ1a
+9mIyk2Y7pzY7lBJfB2GiyWkI/rmip9uGQezHQHa324Dh7WZD04pj7JWHq/ype1/e0DGm7vDIsHc+
+ewoNwDNDM8qMc8BAbN7ZS5KwotTp3GBTc7iPfWZBOXRbHUty30KlbvktVXMMr3VN
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+o11aJL191EEbwvv49pAt15kxNf6r4YsEpKO86URGul3yZgnhK4erdE7N4faQ9wbZzNnMc+sIhNXr
+WFvqAGlp15tcK6c9YxZcB7oRq0tdJ3tYw/5A+QDPQLf3rir2zBLmw9EOSuFbKH/dcw/YIMhiDb8o
+raSXcbkh3H+xvDdJ4u6SNMpSdMFWccvRdrfqpe7N9v5DeidIE8MAYsdirT6g6rwYDb+zLciLHxO6
+i47QZVLZIt/ibED1NiN2iMecfm0fmGJG7fE0lhIqV6EwisEUcKPZjUOJbTXQjsTs2Hdc2UWW0QxW
+GPalGOE2EQJE8yWlvact2sNlePZR4vRDhrDEVQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature828867-Object773539"><etsi:QualifyingProperties Target="#Signature828867"><etsi:SignedProperties Id="Signature828867-SignedProperties301380"><etsi:SignedSignatureProperties><etsi:SigningTime>2023-10-11T18:08:10-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>ei0mZVIlLor5VFMK7p5s7vhAiDk=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>84053752875990962</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-241440"><etsi:Description>Doc</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></notaCredito>

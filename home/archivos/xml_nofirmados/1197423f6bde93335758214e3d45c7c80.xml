@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>0803202301119008359000120010010000000501234567819</numeroAutorizacion><fechaAutorizacion>2023-03-08T10:36:04-05:00</fechaAutorizacion><comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>JUNTA DE RIEGO VILCABAMBA</razonSocial>
+    <nombreComercial>JUNTA DE RIEGO VILCABAMBA</nombreComercial>
+    <ruc>1190083590001</ruc>
+    <claveAcceso>0803202301119008359000120010010000000501234567819</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000050</secuencial>
+    <dirMatriz>BOLIVAR S/N Y ATYLLO </dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>08/03/2023</fechaEmision>
+    <dirEstablecimiento>BOLIVAR S/N Y ATYLLO </dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>ROSALINA PINEDA</razonSocialComprador>
+    <identificacionComprador>1100305299</identificacionComprador>
+    <totalSinImpuestos>158.4</totalSinImpuestos>
+    <totalDescuento>0</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>158.4</baseImponible>
+        <valor>0</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>158.4</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>158.4</total>
+        <plazo>1</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>0</codigoPrincipal>
+      <descripcion>PAGO DE OBLIGACIONES PENDIENTES DEL AÑO 2021</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>68.2</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>68.2</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>68.2</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0</codigoPrincipal>
+      <descripcion>PAGO DE SERVICIO DE RIEGO ENERO - DICIEMBRE 2022</descripcion>
+      <cantidad>12</cantidad>
+      <precioUnitario>2</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>24</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>24</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0</codigoPrincipal>
+      <descripcion>PAGO MANTENIMIENTO DEL CANAL 2022</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>20</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>20</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>20</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0</codigoPrincipal>
+      <descripcion>PAGO CUOTA EXTRA EMERGENTE 2022</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>20</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>20</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>20</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0</codigoPrincipal>
+      <descripcion>PAGO CUOTA CREDITO 2022</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>15</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>15</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>15</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0</codigoPrincipal>
+      <descripcion>PAGO AUTORIZACION SENAGUA 2022</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>3</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>3</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>3</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>0</codigoPrincipal>
+      <descripcion>PAGO DE MORA POR OBLIGACIONES PENDIENTES DEL AÑO 2022</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>8.2</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>8.2</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>8.2</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="email">sistemaderiegovilcabamba@gmail.com</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature267118">
+<ds:SignedInfo Id="Signature-SignedInfo457148">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID191811" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature267118-SignedProperties406488">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>GDAzJCuNDb0K9gNGVbR1l2E8yLk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate112325">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>yVBSm4BQERhDsYMitRT6kUdqjrg=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-300108" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>NHjq6C6gX7uXebIo5IlwBN9HqAg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue329639">
+rexi+NtZK2QAOvsx+/mPUSGSwDyA0AzJwRd6gxuUEeEvAduFz77aHdkkRluXkNiD5R3ZnnPRlX61
+jbAmWK46FnA4DqkXBfVq6yI7cH/jjjpq5TWEcj7a7yVwDoCCUkeNthWx0nsgZ+BY1t4Q/yajPq9e
+4XkBWJP/r1zBBc4njeNXltEqEGP32450IC2D7XwibFxCaXOEy9jkyKr83iansKfOPHq9lpeiAbzO
+p3H4c/erlQ1kuCTFTbro5uvzmtpExpYtsF+YkUDoeN5HCtciraVlZ49W15fRq5jOt6fM4L2bBrQT
+KUpIl14Zgm4w1fuZ4ndgVJIB0NUUskDUXqsqsg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate112325">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJYjCCB0qgAwIBAgIEW3HTiTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTIzMDEyNTE0MzM0MFoXDTI1MDEyNTE1MDM0
+MFowgbgxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE8MBEGA1UEBRMKMDAwMDgyOTM5MzAnBgNVBAMTIE1BTlVFTCBBR1VTVElO
+IEVTUEFSWkEgSkFSQU1JTExPMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuuCy9d58
+uKs6JFr0203MfnVL1DvIgOwT/7+bAqryrCC3TwkT3YM38GxBtnOrEtkD+g7aPB3QyGJlLlP7r42A
+ceNbMLLvYn+Rc8JiJ2n+hNXtiNh+ex+tCHmKAq1xEAKdI8WVYgl+b+hpTm/P30ltZzv5Dp6bCgQB
+QY5lGlY8IFk2lAiQWeo+B9rypVQZpl5yeWM23oMVdmiMyauYM8nV6ChhiUrI39b/4zfkCusJ8OTS
+9SkGbzTdP9NIcFyoMMz6rOGmJd8dSY8Sye7DC9k0NRDUdUJJu7i/uU8CeZlnBmUbNijNbIVEAxVI
+jg3mVWg21nUppfU9ow+6ZmBir6q1IQIDAQABo4IEhzCCBIMwCwYDVR0PBAQDAgUgMIGRBggrBgEF
+BQcBAQSBhDCBgTA+BggrBgEFBQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJs
+aWN3ZWIvc3RhdHVzL29jc3AwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2Vq
+YmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDApBgorBgEEAYKoOwMKBBsTGUpVTlRBIERFIFJJRUdP
+IFZJTENBQkFNQkEwHQYKKwYBBAGCqDsDCwQPEw0xMTkwMDgzNTkwMDAxMBoGCisGAQQBgqg7AwEE
+DBMKMTEwMDAzNjg2MDAeBgorBgEEAYKoOwMCBBATDk1BTlVFTCBBR1VTVElOMBcGCisGAQQBgqg7
+AwMECRMHRVNQQVJaQTAZBgorBgEEAYKoOwMEBAsTCUpBUkFNSUxMTzAaBgorBgEEAYKoOwMFBAwT
+ClBSRVNJREVOVEUwIwYKKwYBBAGCqDsDBwQVExNCT0xJVkFSIFNOIFkgQVRJTExPMBoGCisGAQQB
+gqg7AwgEDBMKMDk4OTc2ODUyODAUBgorBgEEAYKoOwMJBAYTBExvamEwFwYKKwYBBAGCqDsDDAQJ
+EwdFQ1VBRE9SMCAGCisGAQQBgqg7AzMEEhMQU09GVFdBUkUtQVJDSElWTzAtBgNVHREEJjAkgSJz
+aXN0ZW1hZGVyaWVnb3ZpbGNhYmFtYmFAZ21haWwuY29tMIIB4QYDVR0fBIIB2DCCAdQwggHQoIIB
+zKCCAciGgdZsZGFwOi8vYmNlcWxkYXBzdWJwMS5iY2UuZWMvY249Q1JMMTc0Myxjbj1BQyUyMEJB
+TkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsbD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBD
+RVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1BQ0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwl
+MjBERUwlMjBFQ1VBRE9SLGM9RUM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRw
+Oi8vd3d3LmVjaS5iY2UuZWMvQ1JML2VjaV9iY2VfZWNfY3JsZmlsZWNvbWIuY3JspIG2MIGzMQsw
+CQYDVQQGEwJFQzEiMCAGA1UEChMZQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMu
+RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMF
+UVVJVE8xJTAjBgNVBAMTHEFDIEJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxEDAOBgNVBAMTB0NS
+TDE3NDMwHwYDVR0jBBgwFoAUSKLfIx8d+CxReowDzUkypQnBlKswHQYDVR0OBBYEFIrLrEhxws+i
+L1y9eaG1397oR4xJMAkGA1UdEwQCMAAwGQYJKoZIhvZ9B0EABAwwChsEVjguMQMCBLAwDQYJKoZI
+hvcNAQELBQADggIBAMxTLzGpe+ve91B6R0711llg6Nlnva+WIxU2pBlvfslwGpDkXtFXqrYQflxf
+c+BmDxj1tFxohc5eZgj4qvLghOkDpO6lluCIYgjTk59W8be48K3vltyU2KTnb3o4e4OKXT9uYf45
+xEWIYuaiAyYZayGQ2OCGnrREg8g3fUVL0E27gcUUgdC6OFxCoP/9OYDKAMxHmU/XGAwWcDhGUEWc
+BEqH0kYIMTAorOn1gF2YyGjk5DWZjtZ9xSFIbX4lQhiSqrzq5g61RshQUxCisxAWRiEJ3WVoX5+2
+K9tfc6cYK8R70PIpD9HChkDQ9ecju0FOiKCCnvzH+uucbCSrUp2ooyBcZHXpZFWAKboiTryWnQXw
+ckYkcaDHNOLtZEhKAWBO+EPx85mWO3eJj0Xk2MUuY3BQYStv1bius2Vv1ha26dugzSrixpUiFScl
+rrOiAlMnN9NLpdJVSHgpyaolcaynUQPdqFz7AhRMnv/GA0uLyQMBRCVFx0MuvfwH2Fmlawyk2Csv
+RLmcIfEtOYVcO6o9rTnRA9qW8e3hShCoGiStVkzXZQajyrkJ6JF4fTKBuiLTKdVgCWOfmy6b6Fir
+JNREG/2YGpvXwS3zGmZkjZo9hbPpKtN5DLY/hhCg14YlopW0WpWx6pqwZuVum9+HVRPy35F55c10
+Am5SB5SQozrrS8vn
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uuCy9d58uKs6JFr0203MfnVL1DvIgOwT/7+bAqryrCC3TwkT3YM38GxBtnOrEtkD+g7aPB3QyGJl
+LlP7r42AceNbMLLvYn+Rc8JiJ2n+hNXtiNh+ex+tCHmKAq1xEAKdI8WVYgl+b+hpTm/P30ltZzv5
+Dp6bCgQBQY5lGlY8IFk2lAiQWeo+B9rypVQZpl5yeWM23oMVdmiMyauYM8nV6ChhiUrI39b/4zfk
+CusJ8OTS9SkGbzTdP9NIcFyoMMz6rOGmJd8dSY8Sye7DC9k0NRDUdUJJu7i/uU8CeZlnBmUbNijN
+bIVEAxVIjg3mVWg21nUppfU9ow+6ZmBir6q1IQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature267118-Object747044"><etsi:QualifyingProperties Target="#Signature267118"><etsi:SignedProperties Id="Signature267118-SignedProperties406488"><etsi:SignedSignatureProperties><etsi:SigningTime>2023-03-08T10:36:03-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>ajiKRFVChZUJBoEQe8kZ4qPhe+I=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1534186377</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-300108"><etsi:Description>Doc</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante></autorizacion>

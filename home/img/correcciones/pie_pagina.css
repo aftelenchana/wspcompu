@@ -1,0 +1,46 @@
+.imagen_logo img{
+  width: 170px;
+}
+.bloque1{
+  display: inline-block;
+  margin: 30px;
+  padding: 10px;
+  color: #fff;
+}
+.redes img {
+  width: 35px;
+  display: block;
+  padding: 5px;
+}
+.redes a{
+  display: block;
+
+}
+.titu_bloque1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 3px;
+  margin: 3px;
+}
+.bloque1 li{
+  padding: 5px;
+  margin: 4px;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+}
+.bloque1 a{
+    color: #fff;
+    padding: 3px;
+}
+.bloque1 a:hover{
+  border-color: #fff;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+}
+footer{
+  text-align: center;
+  background: #232F3E;
+  height: auto;
+}

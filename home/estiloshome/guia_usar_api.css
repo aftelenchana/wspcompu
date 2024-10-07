@@ -1,0 +1,26 @@
+.titulo_guia{
+  text-align: center;
+}
+.guia_general{
+  background: #F8F6C2;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.guia_general .j_parrafo{
+  text-align: justify;
+}
+.text_codigo{
+  text-align: center;
+}
+.text_codigo textarea{
+  width: 50%;
+  margin: 0 auto;
+  resize: none;
+}
+@media screen and (max-width:980px ) {
+
+  .text_codigo textarea{
+    width: 90%;
+  }
+}

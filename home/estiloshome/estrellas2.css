@@ -1,0 +1,16 @@
+
+.estrella_pintada {
+color:#ECFF00;
+
+}
+.result_estrellas div{
+
+  text-align: center;
+}
+.result_estrellas input{
+  display: none;
+
+}
+.result_estrellas  label{
+  font-size: 23px;
+}

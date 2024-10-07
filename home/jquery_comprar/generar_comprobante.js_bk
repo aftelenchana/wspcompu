@@ -1,0 +1,200 @@
+
+function sendData_descarga_masiva(){
+  $('.notificacion_descarga').html(' <div class="notificacion_negativa">'+
+     '<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>'+
+   '</div>');
+  var parametros = new  FormData($('#descarga_masiva')[0]);
+  $.ajax({
+    data: parametros,
+    url: 'jquery_producto/descargar.php',
+    type: 'POST',
+    contentType: false,
+    processData: false,
+    beforesend: function(){
+
+    },
+    success: function(response){
+      console.log(response);
+
+      if (response =='error') {
+        $('.notificacion_descarga').html('<p class="alerta_negativa">Error al Editar el Contraseña</p>')
+      }else {
+      var info = JSON.parse(response);
+      if (info.noticia == 'insert_correct') {
+        $('.notificacion_descarga').html('<div class="notio_positiva" ><p style="background: green;width: 50%;margin: 0 auto;padding: 5px;">'+info.descargas+' Descargados</p></div>');
+
+      }
+      if (info.noticia == 'vacio') {
+      $('.notificacion_descarga').html('<p style="background: #FF5733;width: 80%;margin: 0 auto;">Agrega primero un producto</p>');
+
+      }
+
+      }
+
+    }
+
+  });
+}
+
+
+
+function sendData_agregar_dorma_pago(){
+  $('.notificacion_forma_pago').html(' <div class="notificacion_negativa">'+
+     '<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>'+
+   '</div>');
+  var parametros = new  FormData($('#agregar_forma_de_pago')[0]);
+  $.ajax({
+    data: parametros,
+    url: 'jquery_comprar/generar_comprobante.php',
+    type: 'POST',
+    contentType: false,
+    processData: false,
+    beforesend: function(){
+
+    },
+    success: function(response){
+      console.log(response);
+
+      if (response =='error') {
+        $('.notificacion_forma_pago').html('<p class="alerta_negativa">Error al Editar el Contraseña</p>')
+      }else {
+      var info = JSON.parse(response);
+      if (info.noticia == 'insert_correct') {
+        $('.notificacion_forma_pago').html('<div class="notio_positiva" ><p style="background: green;width: 50%;margin: 0 auto;padding: 5px;">Forma de Pago Agregada</p></div>');
+
+      }
+      if (info.noticia == 'vacio') {
+      $('.notificacion_forma_pago').html('<p style="background: #FF5733;width: 80%;margin: 0 auto;">Agrega primero un producto</p>');
+
+      }
+
+      }
+
+    }
+
+  });
+}
+
+
+
+
+
+
+function buscar_producto() {
+  $('#total_resultados').html('<div class="proceso">'+
+  '<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>'+
+  '</div>');
+    var parametros = new  FormData($('#busqueda_producto')[0]);
+
+    $.ajax({
+      data: parametros,
+      url: 'jquery_comprar/generar_comprobante2.php',
+      type: 'POST',
+      contentType: false,
+      processData: false,
+      beforesend: function(){
+
+      },
+      success: function(response){
+        $("#elejir_" ).html(response);
+
+
+      }
+
+    });
+}
+
+function sendData_info_usuario() {
+  $('#usuario_dirigido').html('<div class="proceso">'+
+  '<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>'+
+  '</div>');
+    var parametros = new  FormData($('#informacion_usuario')[0]);
+    $.ajax({
+      data: parametros,
+      url: 'jquery_comprar/generar_comprobante.php',
+      type: 'POST',
+      contentType: false,
+      processData: false,
+      beforesend: function(){
+
+      },
+      success: function(response){
+        $("#usuario_dirigido" ).html(response);
+
+
+
+
+
+      }
+
+    });
+}
+
+function sendData_generar_factura() {
+  $('.notificacion_factura').html('<div class="proceso">'+
+  '<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>'+
+  '</div>');
+    var parametros = new  FormData($('#generar_factura')[0]);
+    $.ajax({
+      data: parametros,
+      url: 'facturacion/facturacionphp/controladores/ctr_venta.php',
+      type: 'POST',
+      contentType: false,
+      processData: false,
+      beforesend: function(){
+
+      },
+      success: function(response){
+        console.log(response);
+          $('.notificacion_factura').html(response)
+
+
+
+
+
+
+      }
+
+    });
+}
+function consumidor_final() {
+    var tipo_identificacion =  document.getElementById("elegir_documento").value;
+    if (tipo_identificacion == '07') {
+      console.log('dddddddddddddddddddddddd');
+
+    }else {
+      console.log('otro');
+    }
+
+}
+
+
+$(document).ready(function(){
+  $('.eliminar_producto').click(function(e){
+    e.preventDefault();
+    var idproducto = $(this).attr('idproducto');
+    var action = 'eliminar_producto_unico';
+    console.log(idproducto);
+    $.ajax({
+      url:'jquery_comprar/generar_comprobante.php',
+      type:'POST',
+      async: true,
+      data: {action:action,idproducto:idproducto},
+      success: function(response){
+        console.log(response);
+        if (response != 'error') {
+          var info = JSON.parse(response);
+          if (info.noticia == 'insert_correct') {
+            location.href ="index.php";
+          }
+
+        }
+      },
+       error:function(error){
+         console.log(error);
+         }
+       });
+
+  });
+
+});

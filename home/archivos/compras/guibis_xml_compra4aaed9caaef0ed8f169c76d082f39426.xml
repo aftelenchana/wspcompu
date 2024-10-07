@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>MENDOZA JARAMILLO DENIS ESTHER</razonSocial>
+        <nombreComercial>GUI-ART-PRINT</nombreComercial>
+        <ruc>0919325126001</ruc>
+        <claveAcceso>0511202301091932512600120021000000000078085606711</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>002</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>000000007</secuencial>
+        <dirMatriz>Ciudadela: URBANIZACION VALLE VICTORIA Barrio: MUCHO LOTE 2 Número: VILLA 21 Manzana: 2831 </dirMatriz>
+        <contribuyenteRimpe>CONTRIBUYENTE NEGOCIO POPULAR - RÉGIMEN RIMPE</contribuyenteRimpe>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>05/11/2023</fechaEmision>
+        <dirEstablecimiento>Calle: JOSE MASCOTE Número: 2225 Intersección: FEBRES CORDERO-CAPITAN NAJERA </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>GUIRACOCHA SEILEMA XAVIER LEONARDO</razonSocialComprador>
+        <identificacionComprador>0923013288001</identificacionComprador>
+        <totalSinImpuestos>2.65</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>2.65</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>2.65</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>2.00</total>
+            </pago>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>0.65</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>REX1000</codigoPrincipal>
+            <descripcion>RECETARIO</descripcion>
+            <cantidad>50.0</cantidad>
+            <precioUnitario>0.05299</precioUnitario>
+            <descuento>0.00</descuento>
+            <precioTotalSinImpuesto>2.65</precioTotalSinImpuesto>
+            <detallesAdicionales>
+                <detAdicional nombre="informacionAdicional" valor="BLANCO Y NEGRO"/>
+            </detallesAdicionales>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>2.65</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Telefono">044545378</campoAdicional>
+        <campoAdicional nombre="Email">lid.asesoria.cit@gmail.com</campoAdicional>
+        <campoAdicional nombre="PRUEBA">PARA REALIZAR RETENCION Y NOTA DE CREDITO</campoAdicional>
+    </infoAdicional></factura>

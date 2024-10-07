@@ -1,0 +1,80 @@
+
+.total_bloque{
+  text-align: center;
+  margin: 0 auto;
+}
+.bloque{
+  width: 207px;
+  text-align: center;
+  border-right: solid;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-radius: 1px;
+  display: inline-block;
+  margin: 3px;
+}
+
+
+.bloque .img_producto{
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+}
+.bloque .img_producto img {
+  max-width: 130px;
+  max-height: 130px;
+}
+.bloque .nombre_precio a{
+  text-decoration: none;
+  color: #232F3E;
+  font-size: 17px;
+  font-weight: bold;
+}
+.bloque .nombre_precio span{
+  color: #E3870B;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bloque .nombre_precio a:hover{
+  text-decoration: underline;
+  text-decoration-color: #E3870B;
+}
+.bloque .cantidad p{
+  margin: 0px;
+  padding: 0px;
+}
+.bloque .lugar_producto h3{
+  margin: 0px;
+  padding: 0px;
+}
+.bloque .categoria_producto h5{
+  margin: 0px;
+  padding: 0px;
+}
+
+.bloque .agregar_carrito{
+  background: #232F3E;
+}
+.bloque .agregar_carrito a{
+  color: #fff;
+  text-decoration:none;
+  padding: 3px;
+  margin: 1px;
+}
+.bloque .agregar_carrito a:hover{
+  font-size: 15px;
+}
+
+
+.bloque .agregar_carrito img{
+  width: 20px;
+
+}
+@media screen and (max-width:730px ) {
+  .bloque{
+    width: 170px;
+    margin: 0px;
+  }
+
+  }

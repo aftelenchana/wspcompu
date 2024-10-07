@@ -1,0 +1,71 @@
+.tabla{
+  text-align: left;
+  width: 30%;
+  border: 10px;
+  font-size: 14px;
+  border-color: #ccc;
+}
+.manuel{
+  text-align: center;
+}
+.tabla >div{
+  display: block;
+  padding: 1px;
+  border-color: #ccc;
+}
+.tabla{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+  grid-template-columns: 115px 115px;
+  grid-template-rows: 50px 40px 40px 190px 40px;
+  border-color: #ccc;
+}
+.tabla .item {
+background: #ED8681;
+grid-column-start: 1;
+grid-column-end: 3;
+}
+.tabla .item2 {
+  background: #90F7A0;
+grid-column-start: 1;
+grid-column-end: 3;
+}
+.tabla .grid_foto {
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 4;
+grid-row-end: 5;
+}
+.tabla .vvv {
+  background: #ff8000;
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 5;
+grid-row-end: 6;
+}
+.beto .tabla p{
+  text-align: center;
+}
+.beto{
+  display: inline-block;
+  padding: 45px;
+  padding-right: 100px;
+
+}
+.btn_cancel, .btn_ok {
+  width: 125px;
+  background: #478ba2;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+#btn_cancel{
+  width: 125px;
+  background: #478ba2;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}

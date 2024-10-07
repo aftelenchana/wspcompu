@@ -1,0 +1,98 @@
+.contenedor_general{
+  border: solid 4px #c1c1c1;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+.cuadro_busqueda{
+  width: 50%;
+  height: 550px;
+
+  display: inline-block;
+}
+.cuadro_busqueda .busqueda_qr{
+background: #E15BCC;
+width: 60%;
+height: 60%;
+margin: 0 auto;
+text-align: center;
+}
+.cuadro_busqueda .busqueda_id{
+width: 70%;
+height: 35%;
+margin: 0 auto;
+text-align: center;
+}
+.cuadro_busqueda .busqueda_id .sbn {
+  padding: 3px;
+  margin: 3px;
+
+}
+.cuadro_busqueda .busqueda_id .sbn input{
+  background: #232F3E;
+  padding: 2px;
+  color: #fff;
+}
+.cuadro_busqueda .busqueda_id .sbn input:hover{
+  cursor: pointer;
+  padding: 2px;
+    font-size: 18px;
+}
+.cuadro_busqueda .busqueda_id input{
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.cuadro_resultados{
+  width: 50%;
+  height: 550px;
+  background: #EAEAEA;
+  display: inline-block;
+}
+.cuadro_resultados .img_resultado img{
+  width: 30%;
+}
+.cuadro_resultados .tabla_resultados table{
+  margin: 0 auto;
+}
+.cuadro_resultados .tabla_resultados  tr,td{
+    border: solid 1px #c1c1c1;
+    border-collapse: collapse;
+}
+.cuadro_resultados .resultado_comprador  table{
+  margin: 0 auto;
+}
+.clip_vender{
+  background: #232F3E;
+  color: #ffff;
+  width: 50%;
+  margin: 0 auto;
+}
+.clip_vender:hover{
+  cursor: pointer;
+  padding: 1px;
+}
+@media screen and (max-width:700px ) {
+  .contenedor_general{
+display: contents;
+  }
+  .cuadro_resultados{
+    display: inline-block;
+    width: 98%;
+  }
+
+  .cuadro_busqueda{
+    width: 98%;
+    display: inline-block;
+  }
+
+  .cuadro_busqueda .busqueda_qr{
+  width: 80%;
+
+  }
+
+
+}

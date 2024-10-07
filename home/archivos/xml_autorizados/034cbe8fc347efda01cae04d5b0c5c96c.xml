@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comprobante>
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="2.1.0">
+	<infoTributaria>
+	    <tipoEmision>1</tipoEmision> 
+	    <razonSocial>SISTEMAS Y PROGRAMAS COMPUTEPROG S.A</razonSocial>
+	    <nombreComercial>COMPUTEPROG</nombreComercial>
+	    <ruc>0992890282001</ruc>
+	    <claveAcceso>1212202201099289028200120010020000024643140945416</claveAcceso>
+	    <codDoc>01</codDoc>
+	    <estab>001</estab>
+	    <ptoEmi>002</ptoEmi>
+	    <secuencial>000002464</secuencial>
+	    <dirMatriz>Luis Urdaneta 1311B y Garcia Moreno</dirMatriz>
+
+
+
+			<contribuyenteRimpe>CONTRIBUYENTE RÉGIMEN RIMPE</contribuyenteRimpe>
+
+  	</infoTributaria>
+	<infoFactura>
+	    <fechaEmision>12/12/2022</fechaEmision>
+
+			<dirEstablecimiento>Luis Urdaneta 1311B y Garcia Moreno</dirEstablecimiento>
+
+
+
+			<obligadoContabilidad>SI</obligadoContabilidad>
+
+
+
+	    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+
+		<razonSocialComprador>VICTOR ERIC CORONEL PARRALES</razonSocialComprador>
+	    <identificacionComprador>0930083936</identificacionComprador>
+		<direccionComprador>CALLE 38 ENTRE LA O Y LA P</direccionComprador>
+
+	    <totalSinImpuestos>630.36000</totalSinImpuestos>
+
+
+	    <totalDescuento>0.00</totalDescuento>
+
+	    <totalConImpuestos>
+	      <totalImpuesto>
+	        <codigo>2</codigo>
+	        <codigoPorcentaje>2</codigoPorcentaje>
+	        <descuentoAdicional>0</descuentoAdicional>
+	        <baseImponible>630.36</baseImponible>
+	        <valor>75.64000</valor>
+	      </totalImpuesto>
+
+
+
+
+	    </totalConImpuestos>
+	    <propina>0</propina>
+	    <importeTotal>706.00000</importeTotal>
+	    <moneda>DOLAR</moneda>
+
+
+	    <pagos>
+
+	    	<pago>
+	    		<formaPago>19</formaPago>
+	    		<total>706.00</total>
+	    		<plazo>0</plazo>
+	    		<unidadTiempo>días</unidadTiempo>
+	    	</pago>
+
+	    </pagos>
+
+  	</infoFactura>
+  	<detalles>
+
+    <detalle>
+
+      	<codigoPrincipal>14IIL05 CI5</codigoPrincipal>
+		<codigoAuxiliar>14IIL05 CI5</codigoAuxiliar>
+      	<descripcion>NOTEBOOK LENOVO IP3 14IIL05 CI5 1035G4 1.1GHZ-8GB-256GB SSD-PLATINUM GREY-14"HD-FREEDOS-2Y</descripcion>
+
+      <cantidad>1.000000</cantidad>
+      <precioUnitario>630.360000</precioUnitario>
+
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>630.36</precioTotalSinImpuesto>
+
+
+
+
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>630.36000</baseImponible>
+          <valor>75.64</valor>
+        </impuesto>
+
+
+
+      </impuestos>
+
+	</detalle>
+
+
+    </detalles>
+
+
+
+    <infoAdicional>
+
+
+    			<campoAdicional nombre="Descripción">venta</campoAdicional>
+
+
+    </infoAdicional></factura>

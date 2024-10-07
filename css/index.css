@@ -1,0 +1,243 @@
+.boton_contendedot_install {
+  text-align: center;
+}
+#btnInstall {
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  animation: vibrate 0.3s linear infinite;
+  margin: 0 auto;
+  opacity: 0.6; /* 80% de opacidad */
+}
+#btnInstall:hover {
+  background-color: #45a049;
+    opacity: 0.9; /* 80% de opacidad */
+
+}
+@keyframes vibrate {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
+  100% { transform: translateX(2px); }
+}
+
+
+.search-container{
+  margin: 0 auto;
+}
+.search-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search-input {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 40px;
+    box-sizing: border-box; /* Asegúrate de que el padding no afecte el ancho total */
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    height: 40px;
+    box-sizing: border-box; /* Asegúrate de que el padding no afecte el ancho total */
+}
+
+.search-input:focus,
+.search-button:focus {
+    outline: none;
+}
+
+.contendeor_videos{
+  padding: 2px;
+}
+.caja_video{
+  width: 40%;
+  padding: 2px;
+  margin: 2px;
+  display: inline-block;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  width: 100%;
+  background-color: #263238;
+  color: #CCC;
+  padding: 10px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list-item {
+  margin-bottom: 10px;
+}
+
+.footer-list-item a {
+  color: #CCC;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-list-item a:hover {
+  color: #FFF;
+}
+
+.footer-socials {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-socials-item {
+  margin-right: 10px;
+}
+
+.footer-socials-link {
+  color: #CCC;
+  border: 1px solid #CCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.footer-socials-link:hover {
+  color: #FFF;
+  border-color: #FFF;
+}
+
+.info-container-secundario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.info-block {
+    background-color: #4CAF50; /* Color similar al del botón de búsqueda */
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-block h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.info-block p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.info-block:hover {
+    transform: scale(1.05);
+    background-color: #45a049; /* Color similar al hover del botón de búsqueda */
+}
+
+
+main {
+    background-color: #263238;
+
+    /* Otros estilos que necesites, como padding, margin, etc. */
+}
+
+
+.contenedor-sin-resultados {
+text-align: center; /* Centra el contenido */
+color: white; /* Establece el color del texto a blanco */
+}
+
+.imagen-sin-resultados {
+width: 150px; /* Establece el ancho de la imagen, ajusta según tus necesidades */
+margin: 0 auto; /* Centra la imagen horizontalmente */
+display: block; /* Asegura que la imagen sea un bloque para permitir el auto margen */
+}
+
+.texto-sin-resultados {
+margin-top: 20px; /* Espacio entre la imagen y el texto, ajusta según tus necesidades */
+font-size: 1.2em; /* Tamaño del texto, ajusta según tus necesidades */
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width:620px ) {
+  .caja_video{
+    width: 100%;
+
+    display:block;
+  }
+
+}
+
+
+@media (max-width: 435px) {
+  .no_poner_falta_espacios{
+    display: none;
+  }
+
+  .search-input {
+      width: 300px;
+  }
+
+
+}

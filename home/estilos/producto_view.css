@@ -1,0 +1,94 @@
+/* Estilos adicionales */
+.upload-icon {
+  display: inline-block;
+  color: #333;
+  margin: 20px;
+}
+
+.upload-icon:hover {
+  color: #666;
+}
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  text-align: center;
+  background: #ebebeb;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.image-preview {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.image-preview img {
+  max-width: 50px; /* Ajusta al tamaño deseado */
+  max-height: 50px; /* Ajusta al tamaño deseado */
+}
+
+.remove-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: red;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.icone_agragr_imagenes{
+  display: block;
+}
+.titulo_agre_imagens{
+  display: block;
+}
+.notificacion_agregar_imagenes{
+  text-align: center;
+}
+.contenddir_imagens_resultado_bd{
+  display: inline-block;
+}
+
+
+
+
+.contenddir_imagens_resultado_bd {
+  position: relative;
+  display: inline-block; /* O flex, dependiendo de tu diseño */
+  width: 70px; /* Asegúrate de que esto coincida con el ancho de tu imagen */
+  height: 70px; /* Asegúrate de que esto coincida con el alto de tu imagen */
+  overflow: hidden;
+}
+
+.contenddir_imagens_resultado_bd:hover img {
+  opacity: 0.5; /* Ajusta para el nivel de contraste deseado */
+  filter: contrast(70%); /* Ajusta para el nivel de contraste deseado */
+}
+
+.contenddir_imagens_resultado_bd:hover .icon-container {
+  visibility: visible;
+  opacity: 1;
+}
+
+.icon-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+  color: red; /* Color del ícono */
+  font-size: 24px; /* Tamaño del ícono */
+}
+
+.contenddir_imagens_resultado_bd img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}

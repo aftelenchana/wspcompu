@@ -1,0 +1,26 @@
+.titulo_api{
+  text-align: center;
+  padding: 3PX;
+  margin: 5PX;
+  font-weight: 600px;
+}
+.titulo_api h1{
+  font-weight: 700;
+  color: #232F3E;
+}
+.parrafo{
+  background:  #f8f8f8 ;
+  padding: 10px;
+  margin: 8px;
+}
+.titulo_parrafo{
+  padding: 15px;
+  margin: 10px;
+}
+.titulo_parrafo h5{
+  font-weight: 700px;
+    color: #232F3E;
+}
+.caja_de_codigo{
+  text-align: center;
+}

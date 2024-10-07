@@ -1,0 +1,25 @@
+.generar_codigos{
+  background: #FF5733;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.generar_codigos input{
+  text-align: center;
+  margin: 10px;
+  padding: 8px;
+  width: 40%;
+  border-radius: 5px;
+
+}
+.generar_codigos input:hover{
+  background: #232F3E;
+  color: #fff;
+  cursor: pointer;
+}
+.generar_codigos img{
+  width: 15%;
+}

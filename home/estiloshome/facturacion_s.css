@@ -1,0 +1,85 @@
+.facturacion {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+}
+.bloque1_facturacion{
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  padding: 3px;
+  margin: 3px;
+}
+
+.facturacion .agregar_firma_digital{
+  background: #232F3E;
+  color: #fff;
+}
+.facturacion .agregar_firma_digital input{
+  width: 90%;
+  padding: 4px;
+  margin: 4px;
+}
+.facturacion  img{
+  width: 5%;
+}
+.facturacion .agregar_firma_digital .sbn_f:hover{
+  background: #FF5733;
+  cursor: pointer;
+}
+ .noti_fac_positiva{
+  background: #5ED930;
+}
+.noti_fac_positiva{
+  background: #5ED930;
+}
+ .noti_fac_negativa{
+  background: #FF553B;
+}
+.facturacion .agregar_codigo_sri{
+  background: #232F3E;
+    color: #fff;
+}
+.facturacion .agregar_codigo_sri input{
+  width: 90%;
+  padding: 4px;
+  margin: 4px;
+  text-align: center;
+}
+.facturacion .agregar_codigo_sri img{
+  width: 5%;
+}
+.facturacion .agregar_codigo_sri .sbn_f:hover{
+  background: #FF5733;
+  cursor: pointer;
+}
+
+.facturacion .agregar_direccion{
+  background: #232F3E;
+    color: #fff;
+}
+.facturacion .agregar_direccion input{
+  width: 90%;
+  padding: 4px;
+  margin: 4px;
+  text-align: center;
+}
+.facturacion .agregar_direccion textarea{
+  width: 90%;
+}
+.facturacion .agregar_direccion img{
+  width: 5%;
+}
+.facturacion .agregar_direccion .sbn_f:hover{
+  background: #FF5733;
+  cursor: pointer;
+}
+@media screen and (max-width:950px ) {
+  .facturacion {
+    display:contents;
+    text-align: center;
+  }
+  .bloque1_facturacion{
+    width: 45%;
+  }
+}

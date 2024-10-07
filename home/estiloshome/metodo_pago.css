@@ -1,0 +1,27 @@
+.Contenedor_pagos{
+
+  width: 40%;
+  margin: 0 auto;
+   font-family: 'Signika Negative', sans-serif;
+}
+.Contenedor_pagos img{
+  width: 40px;
+}
+
+.Contenedor_pagos .pago{
+  display: inline-block;
+  padding: 3px;
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+}
+.Contenedor_pagos .pago a{
+  text-align: center;
+
+}
+.Contenedor_pagos .pago a:hover{
+  font-size: 20px;
+  background: #232F3E;
+  color: #fff;
+}

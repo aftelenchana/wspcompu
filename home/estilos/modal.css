@@ -1,0 +1,29 @@
+.con-marca-de-agua {
+  position: relative;
+  overflow: hidden;
+}
+.con-marca-de-agua::after,
+.con-marca-de-agua-inferior::after {
+  content: 'guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com guibis.com';
+  color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  font-size: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  pointer-events: none;
+  width: 200%;
+}
+
+.con-marca-de-agua::after {
+  top: 10%;
+}
+
+.con-marca-de-agua-inferior::after {
+  bottom: 10%;
+}
+.modal-content h5{
+  color: #fff !important;
+  font-weight: bold;
+}

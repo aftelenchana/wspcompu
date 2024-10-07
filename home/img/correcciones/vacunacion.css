@@ -1,0 +1,22 @@
+.carnet_vacunacion{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px
+}
+.resultado_vacunacion img{
+  width: 220px;
+}
+.carnet_vacunacion a{
+  background: #232F3E;
+  color: #fff;
+  margin: 5px;
+  padding: 5px;
+}
+.carnet_vacunacion a:hover{
+  font-size: 18px;
+}

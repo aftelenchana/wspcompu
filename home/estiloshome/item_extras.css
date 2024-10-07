@@ -1,0 +1,109 @@
+.contenedor_items{
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+}
+.contenedor_items .qr_identificador{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  margin: 3px;
+  background: #DAF7A6;
+    margin: 3px;
+
+}
+.contenedor_items .qr_identificador img{
+  width: 250px;
+}
+.contenedor_items  .enlace_generador{
+  margin: 15px;
+
+}
+.contenedor_items  .enlace_generador a{
+  text-decoration: none;
+  background: #232F3E;
+  padding: 10px;
+  color: #fff;
+}
+.contenedor_items a:hover {
+  padding: 15px;
+}
+.contenedor_items  .enlace_generador a:hover{
+padding: 15px;
+}
+.list_ventaja{
+  padding: 10px;
+}
+
+.contenedor_items .pdf_ifentificador{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  margin: 3px;
+  background: #DAF7A6;
+}
+
+.contenedor_items  .pdf_ifentificador{
+  margin: 15px;
+}
+
+.enlace_generador_pdf a{
+  text-decoration: none;
+  background: #232F3E;
+  padding: 10px;
+  color: #fff;
+}
+
+@media screen and (max-width:904px ) {
+  .contenedor_items .qr_identificador img{
+    width: 200px;
+  }
+  .contenedor_items .pdf_ifentificador{
+    width: 50%;
+    height: 250px;
+
+  }
+  .contenedor_items{
+    margin: 1px;
+    padding: 1px;
+  }
+
+
+  }
+  @media screen and (max-width:700px ) {
+    .conte_gh_gh{
+      text-align: center;
+
+    }
+    .contenedor_items{
+      display: contents;
+      margin: 10px;
+      padding: 10px;
+    }
+    .contenedor_items .qr_identificador{
+      width: 90%;
+    }
+    .contenedor_items .pdf_ifentificador{
+      width: 90%;
+    }
+    .contenedor_items   a{
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+
+    }
+
+
+    }
+    @media screen and (max-width:450px ) {
+      .contenedor_items .pdf_ifentificador{
+        height: 400px;
+      }
+
+
+
+
+      }

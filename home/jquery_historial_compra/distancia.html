@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+    var lat1 = -1.2213432;
+    var lon1 = -78.577053915;
+    var lat2 = -1.2213432;
+    var lon2 = -78.577053915;
+
+    Distancia = Dist(lat1, lon1, lat2, lon2);   //Retorna numero en Km
+    alert(Distancia);
+    function Dist(lat1, lon1, lat2, lon2){
+      rad = function(x) {return x*Math.PI/180;}
+
+      var R     = 6378.137;                          //Radio de la tierra en km
+      var dLat  = rad( lat2 - lat1 );
+      var dLong = rad( lon2 - lon1 );
+
+      var a = Math.sin(dLat/2) * Math.sin(dLat/2) + Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(dLong/2) * Math.sin(dLong/2);
+      var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+      var d = R * c;
+
+      return d.toFixed(3);                      //Retorna tres decimales
+    }
+    </script>
+  </body>
+</html>

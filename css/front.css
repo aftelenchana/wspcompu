@@ -1,0 +1,256 @@
+
+
+.productos_restaurantes{
+  padding: 4px;
+  margin: 4px;
+}
+.productos_restaurantes a{
+  color: #000;
+}
+.productos_restaurantes article{
+  cursor:pointer;
+  display: inline-block;
+}
+.contenedor_informaciongeneral_tienda{
+  display: inline-block;
+  width: 100px;
+}
+
+.productos_restaurantes{
+  text-align: center;
+}
+.articulo_lista_salida{
+  display: inline-block;
+  padding: 10px;
+  margin: 30px;
+}
+.articulo_lista_salida {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos hijos */
+  margin: 0;
+  padding: 0;
+}
+
+.articulo_lista_salida .contenedor_informaciongeneral_tienda{
+  font-size: 12px;
+  display: grid;
+  align-items: center;
+
+}
+.olmedo_secundario_jl{
+  margin: 5px;
+  width: 42%;
+  display: inline-block;
+
+  border-radius: 4px;
+}
+
+/* Define la animación de temblor */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.olmedo_secundario_jl:hover {
+  box-shadow: 0px 0px 3px 0px #263238; /* Sombra al pasar el mouse */
+  /* Aplica la animación al pasar el mouse */
+  animation: shake 0.5s ease-in-out;
+  animation-delay: 0.5s; /* Retrasa la animación en medio segundo */
+}
+
+.product {
+  width: 350px;
+  height: 150px;
+  margin: 5px;
+  background-color: #ffffff;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product .product-content {
+  position: relative;
+  width: 100%; /* Ancho del contenedor del producto */
+  height: 150px; /* Altura fija para el contenedor del producto */
+  display: flex;
+  justify-content: center; /* Centrado horizontal para los elementos internos */
+  align-items: center; /* Centrado vertical para los elementos internos */
+}
+.product .product-price {
+  padding: 5px;
+  z-index: 1;
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.product-name {
+  background-color:  #3b9429   ;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  position: absolute;
+  top: 5px;
+  right: 9px;
+  border-radius: 4px;
+  font-size: 15px;
+  opacity: 0.8; /* Este valor puede variar de 0 a 1 */
+}
+
+
+
+.result_estrellas {
+  padding: 5px;
+  z-index: 1;
+  position: absolute;
+  top: 114px;
+  background-color:   #FF5733  ;
+  width: 200px;
+  font-size: 15px;
+  opacity: 0.8; /* Este valor puede variar de 0 a 1 */
+  border-radius: 4px;
+}
+
+.result_estrellas label{
+  font-size: 13px !important;
+}
+
+.product .product-content img {
+  width: auto; /* o podrías usar '100%' si quieres que la imagen se estire a lo ancho */
+  max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+  max-height: 100%; /* Asegura que la imagen no se desborde de la altura del contenedor */
+  object-fit: contain; /* Ajustará la imagen dentro del contenedor sin cortarla */
+}
+
+
+.olmedo_secundario_jl{
+  background: #fff;
+}
+
+
+.articulo_lista_salida .contenedor_informaciongeneral_tienda {
+  padding: 5px;
+    font-size: 12px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    width: 200px; /* Ancho fijo */
+    height: 100px; /* Altura fija */
+    overflow: auto; /* Añade desplazamiento si el contenido es demasiado grande */
+    word-wrap: break-word;
+    box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el ancho/altura */
+}
+
+
+@media (max-width:1000px ) {
+  .product {
+    width: 110px;
+    height: 100px;
+  }
+
+
+  .input-group.flex-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-group-btn {
+      width: 100%; /* Asegúrate de que los botones ocupen todo el ancho */
+  }
+
+  .input-group-btn button,input{
+    width: 50%;
+    margin: 3px;
+  }
+
+  .result_estrellas {
+    top: 76px;
+    width: 135px;
+  }
+  .result_estrellas label{
+    font-size: 11px !important;
+  }
+
+  .product-name {
+    font-size: 11px;
+  }
+
+
+}
+
+.contenedor_informacion_general_alex{
+  margin-top: 400px;
+}
+
+@media (max-width: 435px) {
+  .articulo_lista_salida .contenedor_informaciongeneral_tienda {
+      width: 100px; /* Ancho fijo */
+      font-size: 11px;
+  }
+
+  .olmedo_secundario_jl{
+    margin: 8px;
+    width: 95%;
+    display: inline-block;
+    border-radius: 4px;
+  }
+
+  .product {
+    width: 230px;
+  }
+
+  .articulo_lista_salida .contenedor_informaciongeneral_tienda {
+    width: 230px; /* Ancho fijo */
+  }
+
+  .product .product-content img {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    max-height: 100%; /* Asegura que la imagen no se desborde de la altura del contenedor */
+  }
+
+  .product-category {
+    top: 0px;
+  }
+
+  .product-name {
+    font-size: 10px;
+  }
+
+  .product .product-content {
+    height: 80px; /* Altura fija para el contenedor del producto */
+
+  }
+
+  .contenedor_informacion_general_alex{
+    margin-top: 800px;
+  }
+
+
+
+}
+
+
+@media (max-width: 735px) {
+  .contenedor_informacion_general_alex{
+    margin-top: 700px;
+  }
+}
+
+@media (max-width: 735px) {
+  .contenedor_informacion_general_alex{
+    margin-top: 550px;
+  }
+}

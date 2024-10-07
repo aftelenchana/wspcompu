@@ -1,0 +1,60 @@
+.factores .fact_df{
+  width: 40%;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.factores .fact_df table{
+  margin-left: 30px;
+  text-align: center;
+  border-collapse: collapse;
+}
+.factores .fact_df .enfasis{
+  color: #232F3E;
+  font-size: 13px;
+  font-style: italic;
+}
+.factores .fact_df input{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.factores .fact_df select{
+  width: 210px;
+  text-align: center;
+}
+.factores .fact_df img{
+  width: 50px;
+}
+.factores .fact_df .enviar_actualizar_factor_libro{
+  padding: 5px;
+  margin: 5px;
+}
+.factores .fact_df .enviar_actualizar_factor_libro:hover{
+  background: #232F3E;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+
+
+.factores .fact_df tr:nth-child(even){
+  background: #E5C839;
+}
+.factores .fact_df .add_factor_correcto{
+  background: #232F3E;
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  padding: 3px;
+  border-radius: 30px;
+}
+.factores .fact_df .add_factor_no_correcto{
+  background: #FF0C00;
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  padding: 3px;
+  border-radius: 30px;
+}

@@ -1,0 +1,52 @@
+.consola_de_saldo{
+  width: 600px;
+  margin: 0 auto;
+  border-color: #4C5484;
+ border-width: 1px;
+ border-style: solid;
+ border-radius: 5px;
+ background-image:url(../img/reacciones/leben2.png);
+
+}
+
+.ver_saldo{
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.ver_saldo{
+  font-size: 50px;
+    display: inline-block;
+    padding: 4px;
+    margin: 4px;
+}
+.ver_saldo p{
+  display: inline-block;
+}
+.ver_saldo .count{
+ padding: 55px;
+ border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+background-color: #FAFAFA;
+}
+.acciones_peronales{
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
+
+.fila_accion {
+  padding: 7px;
+  margin: 5px;
+  border-color: #4C5484;
+ border-width: 1px;
+ border-style: solid;
+ border-radius: 9px;
+ background-color: #FAFAFA;
+}
+.img_qr_personal img{
+  width: 110px;
+}

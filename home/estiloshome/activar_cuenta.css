@@ -1,0 +1,26 @@
+.activar_general{
+  width: 25%;
+  margin: 0 auto;
+
+}
+.activar_general img{
+  width: 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+.active_cuenta_leben{
+
+  display: inline-block;
+}
+.mi_cuenta_leben{
+  display: inline-block;
+}
+.particion1{
+  padding: 3px;
+  text-align: center;
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+}

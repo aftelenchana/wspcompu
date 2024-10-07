@@ -1,0 +1,590 @@
+.modal_principal{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.81);
+  display: none;
+
+}
+.modal_secundario{
+  width: 100%;
+  height: 460px;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal_principal .modal_secundario form {
+  width: 600px;
+  text-align: center;
+  background: #fff;
+  height: 480px
+
+}
+.modal_principal .modal_secundario .img_modal img {
+  width: 60px;
+}
+
+.modal_principal .modal_secundario button{
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.modal_principal .modal_secundario a{
+  padding: 5px;
+  width: 45px;
+  border-radius: 3px;
+}
+.modal_principal .modal_secundario button:hover{
+  background: #3b5998;
+}
+
+.modal_principal .modal_secundario a:hover{
+  background: #EAA9A0;
+}
+
+#cerrar {
+  width: 15px;
+}
+
+
+
+
+ .tutu_product {
+   text-align: center;
+ }
+
+.servicios_totales{
+  text-align: center;
+  margin: 10px;
+}
+
+.servicios_totales .agrergar_producto_tienda {
+  display: inline-block;
+  width: 350px;
+  height: 170px;
+  padding: 10px;
+  margin: 4px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.servicios_totales img{
+  width: 30px;
+}
+
+
+.servicios_totales  a{
+  padding: 6px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+
+.servicios_totales  a:hover{
+  font-size: 16px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  background: #C0C6CB;
+
+}
+
+
+.servicios_totales .agrergar_servicio_tienda {
+  display: inline-block;
+  width: 350px;
+  height: 170px;
+  padding: 10px;
+  margin: 4px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+
+}
+.servicios_totales .agrergar_cuenta_digital_tienda {
+  display: inline-block;
+  width: 350px;
+  height: 170px;
+  padding: 10px;
+  margin: 4px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+
+}
+
+
+
+/*Estilos para agregar entradas Digitales*/
+.modal_add_entradas_eventos .bodyModal_add_entradas_eventos{
+background: rgba(0, 0, 0, 0);
+}
+
+.modal_add_entradas_eventos .bodyModal_add_entradas_eventos .form_add_entradas_digitales{
+  background: #F2F2F2;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  margin: 4px;
+  padding: 10px;
+}
+.modal_add_entradas_eventos .bodyModal_add_entradas_eventos  input{
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_add_entradas_eventos .bodyModal_add_entradas_eventos  select {
+    text-align: center;
+    padding: 4px;
+    margin: 3px;
+    border-color: #4C5484;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+}
+.modal_add_entradas_eventos .bodyModal_add_entradas_eventos .alerteditt_add_servicios{
+  padding: 4px;
+  margin: 3px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_add_entradas_eventos .bodyModal_add_entradas_eventos .alerteditt_add_entradas_eventos img{
+  width: 20px;
+}
+.modal_add_entradas_eventos .bodyModal_add_entradas_eventos .alert_positiva{
+  background: #5FCD56;
+}
+
+.modal_add_entradas_eventos .bodyModal_add_entradas_eventos .alert_negativa{
+  background: #EA3232;
+}
+.modal_add_entradas_eventos .bodyModal_add_entradas_eventos .precio_real{
+  color: #317B2C;
+}
+
+
+
+
+
+
+/*Estilos para agregar boletos electronicos*/
+.modal_boletos_electronicos .bodyModal_boletos_electronicos{
+background: rgba(0, 0, 0, 0);
+}
+
+.modal_boletos_electronicos .bodyModal_boletos_electronicos .form_add_boletos_electronicos{
+  background: #F2F2F2;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  margin: 4px;
+  padding: 10px;
+}
+.modal_boletos_electronicos .bodyModal_boletos_electronicos  input{
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_boletos_electronicos .bodyModal_boletos_electronicos  select {
+    text-align: center;
+    padding: 4px;
+    margin: 3px;
+    border-color: #4C5484;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+}
+.modal_boletos_electronicos .bodyModal_boletos_electronicos .alerteditt_add_servicios{
+  padding: 4px;
+  margin: 3px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_boletos_electronicos .bodyModal_boletos_electronicos .alerteditt_add_servicios img{
+  width: 20px;
+}
+.modal_boletos_electronicos .bodyModal_boletos_electronicos .alert_positiva{
+  background: #5FCD56;
+}
+
+.modal_boletos_electronicos .bodyModal_boletos_electronicos .alert_negativa{
+  background: #EA3232;
+}
+.modal_boletos_electronicos .bodyModal_boletos_electronicos .precio_real{
+  color: #317B2C;
+}
+
+
+
+
+
+/*Estilos para agrergar producto*/
+.modal_add_servicios .bodyModal_add_servicios{
+background: rgba(0, 0, 0, 0);
+}
+
+.modal_add_servicios .bodyModal_add_servicios .form_add_producto{
+  background: #F2F2F2;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  margin: 4px;
+  padding: 10px;
+  height: auto;
+}
+
+.modal_add_servicios .bodyModal_add_servicios  input{
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_add_servicios .bodyModal_add_servicios  select {
+    text-align: center;
+    padding: 4px;
+    margin: 3px;
+    border-color: #4C5484;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+}
+.modal_add_servicios .bodyModal_add_servicios .alerteditt_add_servicios{
+  padding: 4px;
+  margin: 3px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_add_servicios .bodyModal_add_servicios .alerteditt_add_servicios img{
+  width: 20px;
+}
+.modal_add_servicios .bodyModal_add_servicios .alert_positiva{
+  background: #5FCD56;
+}
+
+.modal_add_servicios .bodyModal_add_servicios .alert_negativa{
+  background: #EA3232;
+}
+.modal_add_servicios .bodyModal_add_servicios .precio_real{
+  color: #317B2C;
+}
+
+
+
+/*Estilos para agrergar servicio*/
+.modal_add_servicios_empre .bodyModal_add_servicios_empre{
+background: rgba(0, 0, 0, 0);
+}
+
+.modal_add_servicios_empre .bodyModal_add_servicios_empre .form_add_producto_empre{
+  background: #F2F2F2;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  margin: 4px;
+  padding: 10px;
+}
+.modal_add_servicios_empre .bodyModal_add_servicios_empre  input{
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_add_servicios_empre .bodyModal_add_servicios_empre  select {
+    text-align: center;
+    padding: 4px;
+    margin: 3px;
+    border-color: #4C5484;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+}
+.modal_add_servicios_empre .bodyModal_add_servicios_empre .alerteditt_add_servicios_empre{
+  padding: 4px;
+  margin: 3px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_add_servicios_empre .bodyModal_add_servicios_empre .alerteditt_add_servicios_empre img{
+  width: 20px;
+}
+.modal_add_servicios_empre .bodyModal_add_servicios_empre .alert_positiva{
+  background: #5FCD56;
+}
+
+.modal_add_servicios_empre .bodyModal_add_servicios_empre .alert_negativa{
+  background: #EA3232;
+}
+.modal_add_servicios_empre .bodyModal_add_servicios_empre .precio_real{
+  color: #317B2C;
+}
+
+/*Estilos para agrergar cuenta digital*/
+.modal_add_cuenta_digital .bodyModal_add_cuenta_digital{
+background: rgba(0, 0, 0, 0);
+}
+
+.modal_add_cuenta_digital .bodyModal_add_cuenta_digital .form_add_producto_cuenta_digital{
+  background: #F2F2F2;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  margin: 4px;
+  padding: 10px;
+}
+.modal_add_cuenta_digital .bodyModal_add_cuenta_digital  input{
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_add_cuenta_digital .bodyModal_add_cuenta_digital  select {
+    text-align: center;
+    padding: 4px;
+    margin: 3px;
+    border-color: #4C5484;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+}
+.modal_add_cuenta_digital .bodyModal_add_cuenta_digital .alerteditt_add_cuenta_digital{
+  padding: 4px;
+  margin: 3px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_add_cuenta_digital .bodyModal_add_cuenta_digital .alerteditt_add_cuenta_digital img{
+  width: 20px;
+}
+.modal_add_cuenta_digital .bodyModal_add_cuenta_digital .alert_positiva{
+  background: #5FCD56;
+}
+
+.modal_add_cuenta_digital .bodyModal_add_cuenta_digital .alert_negativa{
+  background: #EA3232;
+}
+.modal_add_cuenta_digital .bodyModal_add_cuenta_digital .precio_real{
+  color: #317B2C;
+}
+
+/*Ver producto*/
+.modal_ver_producto .bodyModal_ver_producto{
+  background: rgba(0, 0, 0, 0);
+  font-size: 12px;
+
+}
+
+.modal_ver_producto .bodyModal_ver_producto .form_ver_product{
+  background: #F2F2F2;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  margin: 4px;
+  padding: 10px;
+}
+
+.modal_ver_producto .bodyModal_ver_producto .form_ver_product .informacion_general{
+  text-align: center;
+}
+.modal_ver_producto .bodyModal_ver_producto .form_ver_product .principal{
+  font-weight: bold;
+}
+.modal_ver_producto .bodyModal_ver_producto .form_ver_product  .img_producto_comerce img {
+  width: 110px;
+}
+
+.modal_ver_producto .bodyModal_ver_producto .form_ver_product  .img_qr_comerce img{
+  width: 75px;
+}
+
+.modal_ver_producto .bodyModal_ver_producto .form_ver_product .desc_qr{
+  background: #fff;
+}
+.modal_ver_producto .bodyModal_ver_producto .form_ver_product button:hover{
+  font-size: 15px;
+}
+
+
+/*Estilos para editar  producto*/
+.modal_editar_producto .bodyModal_editar_producto{
+background: rgba(0, 0, 0, 0);
+}
+
+.modal_editar_producto .bodyModal_editar_producto .form_edit_product{
+  background: #F2F2F2;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  margin: 4px;
+  padding: 10px;
+}
+.modal_editar_producto .bodyModal_editar_producto  input{
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_editar_producto .bodyModal_editar_producto  select {
+    text-align: center;
+    padding: 4px;
+    margin: 3px;
+    border-color: #4C5484;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+}
+.modal_editar_producto .bodyModal_editar_producto .alerteditt_editar_producto{
+  padding: 4px;
+  margin: 3px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_editar_producto .bodyModal_editar_producto .alerteditt_editar_producto img{
+  width: 20px;
+}
+.modal_editar_producto .bodyModal_editar_producto .alert_positiva{
+  background: #5FCD56;
+}
+
+.modal_editar_producto .bodyModal_editar_producto .alert_negativa{
+  background: #EA3232;
+}
+.modal_editar_producto .bodyModal_editar_producto .precio_real{
+  color: #317B2C;
+}
+
+
+
+
+
+
+
+/*Estilos para eliminar servicio*/
+.modal_eliminar_producto .bodyModal_eliminar_producto{
+background: rgba(0, 0, 0, 0);
+}
+
+.modal_eliminar_producto .bodyModal_eliminar_producto .form_delete_product{
+  background: #F2F2F2;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  margin: 4px;
+  padding: 10px;
+}
+
+.modal_eliminar_producto .bodyModal_eliminar_producto .alerteditt_add_servicios_empre{
+  padding: 4px;
+  margin: 3px;
+  border-color: #4C5484;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+}
+.modal_eliminar_producto .bodyModal_eliminar_producto .alerteditt_add_servicios_empre img{
+  width: 20px;
+}
+.modal_eliminar_producto .bodyModal_eliminar_producto .alert_positiva{
+  background: #5FCD56;
+}
+
+.modal_eliminar_producto .bodyModal_eliminar_producto .alert_negativa{
+  background: #EA3232;
+}
+.modal_eliminar_producto .bodyModal_eliminar_producto .precio_real{
+  color: #317B2C;
+}
+
+
+
+
+.modal_eliminar_producto .bodyModal_eliminar_producto .img_producto_comerce img{
+  width: 60px;
+}
+
+.modal_eliminar_producto .bodyModal_eliminar_producto .img_qr_comerce img{
+  width: 55px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:800px ) {
+  .modal_secundario{
+    width: 65%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 0 auto;
+  }
+  .modal_add_servicios .bodyModal_add_servicios .form_add_producto{
+    background: #F2F2F2;
+    border-color: #4C5484;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 9px;
+    padding: 10px;
+    margin-top: 200px;
+  }
+
+
+
+}

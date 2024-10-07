@@ -1,0 +1,69 @@
+.user-card .card-img-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 90px; /* Ajusta la altura según necesites */
+  object-fit: cover; /* Esto asegura que la imagen cubra el área designada sin perder su aspecto */
+}
+
+.user-card .card-body {
+  padding: 0.5rem;
+}
+
+.user-card .card-title {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.user-card .card-text {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+.tarjeta_presentacion_usuario{
+  text-align: center;
+  cursor: pointer;
+}
+
+.tarjeta_presentacion_usuario_venta{
+  text-align: center;
+  cursor: pointer;
+}
+
+.iniciar_sesion_usuario{
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.iniciar_sesion_usuario_punto_venta{
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.user-card {
+  background: linear-gradient(135deg, #263238 0%, #263238 50%, #ff9800 100%);
+  color: white;
+  border: none;
+  position: relative; /* Para posicionar correctamente el pseudo-elemento */
+  overflow: hidden; /* Asegura que el pseudo-elemento no se salga de la tarjeta */
+}
+
+.user-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/img/guibis.png');
+  opacity: 0.3;
+  pointer-events: none; /* Esto asegura que el pseudo-elemento no interfiera con la interactividad de la tarjeta */
+}
+
+
+  /* Ajustes para que las tarjetas se vean bien en dispositivos móviles */
+  @media (max-width: 768px) {
+  .user-card {
+    margin-bottom: 15px;
+  }
+  }
