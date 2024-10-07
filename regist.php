@@ -9,8 +9,6 @@ ob_start();
   }
 
 
-
-
 // Asumimos que la sesión está activa y tenemos la información del dominio
 $protocol = empty($_SERVER['HTTPS']) ? 'http://' : 'https://';
 $domain = $_SERVER['HTTP_HOST'];
