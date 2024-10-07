@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="popup.css?v=5">
+    <link rel="stylesheet" href="iconos.css?v=2">
+</head>
+<body>
+  <header class="cabezera_sistema">
+    LSMN Contraseñas Manager
+    <img src="leovana.png" alt="">
+    <div class="" id="informacion_dominio_analizar"></div>
+  </header>
+  <hr>
+
+  <div class="guibis-container-form">
+      <form id="login-form">
+        <div class="mb-3">
+          <label for="username" class="guibis-form-label">Nombre de usuario *</label>
+          <input type="text" class="guibis-form-control" id="username" name="username" required>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="guibis-form-label">Contraseña *</label>
+          <input type="password" class="guibis-form-control" id="password" name="password" required>
+        </div>
+        <div class="guibis-form-check mb-3">
+          <input class="guibis-form-check-input" type="checkbox" id="remember-me" name="remember-me">
+          <label class="guibis-form-check-label" for="remember-me">Recordar hasta que me desconecte.</label>
+        </div>
+        <button type="submit" class="guibis-btn">Entrar</button>
+      </form>
+      <div id="salida_buscador"></div>
+
+      <div class="contenedor_notificaciones" id="contenedor_notificaciones" ></div>
+
+      <div class="salida_datos_antes" id="salida_datos_antes"></div>
+       <!-- Contenedor para resultados -->
+      <div id="session-info"></div>
+
+  </div>
+
+
+
+
+
+
+  <script src="java/jquery.min.js"></script>
+  <script src="popup.js?v=2"></script>
+  <script src="content.js?v=2"></script>
+</body>
+</html>

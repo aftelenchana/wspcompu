@@ -132,7 +132,7 @@ require "../coneccion.php" ;
         $mail -> SMTPSecure = "$SMTPSecure_registro";         // Habilite el cifrado TLS; Se recomienda `PHPMailer :: ENCRYPTION_SMTPS`
         $mail->Port = "$Port_registro";                            // Puerto TCP para conectarse, use 465 para `PHPMailer :: ENCRYPTION_SMTPS` arriba
         // Destinatarios
-        $mail -> setFrom ( $Username_registro , 'Rezeta' );
+        $mail -> setFrom ( $Username_registro , 'Ecuacompu' );
         $mail -> addAddress ($email);
         $mail -> addAddress($Username_registro);
 
@@ -144,7 +144,7 @@ require "../coneccion.php" ;
         <body style="background: #f5f5f5;padding: 6px;margin: 25px;">
             <div class="contenedor" style="background: #fff;padding: 20px;margin: 10px;">
                 <div class="logo-empresa" style="text-align: center;">
-                    <img src="' . $url . '/home/img/upload/'.$img_facturacion.'" alt="Logo de la Empresa" style="width: 200px;">
+                    <img src="https://ecuacompus.com/img/guibis.png" alt="https://ecuacompus.com/img/guibis.png" style="width: 200px;">
                 </div>
                 <div class="contenedor-informacion" style="text-align: justify;">
                     <p>¡Hola <span>' . $nombres . '</span>! Te damos una cálida bienvenida a <strong>'.$nombre_empresa.'</strong>, tu nueva plataforma para envíos masivos de mensajes a través de WhatsApp.</p>

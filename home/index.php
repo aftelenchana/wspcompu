@@ -71,6 +71,13 @@ if (empty($_SESSION['active'])) {
                                 <div class="main-body">
                                     <div class="page-wrapper">
                                         <div class="page-body m-t-50">
+
+                                          <div class="row">
+                                            <iframe src="https://web.whatsapp.com/" width="100%" height="500px"></iframe>
+
+                                          </div>
+
+
                                             <div class="row">
                                                 <div class="col-xl-3 col-md-6">
                                                     <div class="card bg-c-yellow update-card">
@@ -227,7 +234,7 @@ if (empty($_SESSION['active'])) {
 
 
 
-                    
+
 
 
                                             </div>

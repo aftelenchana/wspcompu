@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="cabezera_sistema">
+    Leo Contraseñas Manager
+  </header>
+
+  <div class="guibis-container-form">
+      <div id="session-info"></div>
+      <form id="login-form">
+        <div class="mb-3">
+          <label for="username" class="guibis-form-label">Nombre de usuario *</label>
+          <input type="text" class="guibis-form-control" id="username" name="username" required>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="guibis-form-label">Contraseña *</label>
+          <input type="password" class="guibis-form-control" id="password" name="password" required>
+        </div>
+        <div class="guibis-form-check mb-3">
+          <input class="guibis-form-check-input" type="checkbox" id="remember-me" name="remember-me">
+          <label class="guibis-form-check-label" for="remember-me">Recordar hasta que me desconecte.</label>
+        </div>
+        <button type="submit" class="guibis-btn">Entrar</button>
+      </form>
+  </div>
+
+
+
+
+    <div id="contenedor_dominios2" class="mt-4"></div>
+    <div id="news-container" class="mt-4"></div>
+    <div id="contenedor_dominios" class="mt-4"></div>
+    <p id="info-container" class="mt-4"></p>
+
+
+  <script src="java/jquery.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
