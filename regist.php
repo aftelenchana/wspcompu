@@ -1,15 +1,41 @@
 <?php
-require "coneccion.php" ;
-  mysqli_set_charset($conection, 'utf8'); //linea a colocar
-$protocol = empty($_SERVER['HTTPS']) ? 'http://' : 'https://';$domain = $_SERVER['HTTP_HOST'];$url = $protocol . $domain;
+ob_start();
+    require "coneccion.php" ;
+      mysqli_set_charset($conection, 'utf8mb4'); //linea a colocar
+
+  session_start();
+  if (!empty($_SESSION['active'])) {
+    header('location:home/');
+  }
+
+
+
+
+// Asumimos que la sesión está activa y tenemos la información del dominio
+$protocol = empty($_SERVER['HTTPS']) ? 'http://' : 'https://';
+$domain = $_SERVER['HTTP_HOST'];
 
 $query_doccumentos =  mysqli_query($conection, "SELECT * FROM  usuarios  WHERE  url_admin  = '$domain'");
 $result_documentos = mysqli_fetch_array($query_doccumentos);
-$url_img_upload                     = $result_documentos['url_img_upload'];
-$img_facturacion         = $result_documentos['img_facturacion'];
-$empresa_sistema         = $result_documentos['nombre_empresa'];
 
-$img_sistema = $url_img_upload.'/home/img/uploads/'.$img_facturacion;
+if ($result_documentos) {
+    $url_img_upload = $result_documentos['url_img_upload'];
+    $img_facturacion = $result_documentos['img_facturacion'];
+    $nombre_empresa = $result_documentos['nombre_empresa'];
+    $celular        = $result_documentos['celular'];
+    $email        = $result_documentos['email'];
+    $facebook                = $result_documentos['facebook'];
+    $instagram           = $result_documentos['instagram'];
+    $whatsapp             = $result_documentos['whatsapp'];
+
+    // Asegúrate de que esta ruta sea correcta y corresponda con la estructura de tu sistema de archivos
+    $img_sistema = $url_img_upload.'/home/img/uploads/'.$img_facturacion;
+} else {
+    // Si no hay resultados, tal vez quieras definir una imagen por defecto
+  $img_sistema = '/img/guibis.png';
+}
+
+
 
  ?>
 
@@ -157,7 +183,7 @@ $img_sistema = $url_img_upload.'/home/img/uploads/'.$img_facturacion;
         require "soporte/modal.php";
 
          ?>
-        
+
         <script type="text/javascript" src="home/files/bower_components/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="home/files/bower_components/jquery-ui/jquery-ui.min.js"></script>
         <script type="text/javascript" src="home/files/bower_components/popper.js/dist/umd/popper.min.js"></script>
