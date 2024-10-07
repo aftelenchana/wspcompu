@@ -111,14 +111,16 @@ if ($result_documentos) {
                                             <h3 class="text-center txt-primary">Registrate</h3>
                                         </div>
                                     </div>
+
                                     <div class="form-group form-primary">
-                                        <input type="text" name="nombres" class="form-control" required placeholder="Ingresa tus Nombres"
+                                        <input type="text" name="identificacion" class="form-control ocupar_api_sacar_informacion" required placeholder="Ingresa tu Identificación"
                                         <span class="form-bar"></span>
                                     </div>
                                     <div class="form-group form-primary">
-                                        <input type="text" name="apellidos" class="form-control" required placeholder="Ingresa tus Apellidos" />
+                                        <input type="text" name="nombres" class="form-control resultado_nombres_consumo_api" required placeholder="Ingresa tus Nombres"
                                         <span class="form-bar"></span>
                                     </div>
+
                                     <div class="form-group form-primary">
                                         <input type="text" name="celular" class="form-control" required placeholder="Ingresa tu número Celular" />
                                         <span class="form-bar"></span>
@@ -195,6 +197,7 @@ if ($result_documentos) {
         <script type="text/javascript" src="home/files/bower_components/jquery-i18next/jquery-i18next.min.js"></script>
         <script type="text/javascript" src="home/files/assets/js/common-pages.js"></script>
         <script src="java/registrar_usuario.js"></script>
+        <script src="home/apis/api_sri.js?v=2"></script>
         <script src="./soporte/mensajes.js"></script>
 
 
