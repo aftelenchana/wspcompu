@@ -86,6 +86,7 @@ require "../coneccion.php" ;
 
 
          $nombres    =  mb_strtoupper($_POST['nombres']);
+         $identificacion    =  mb_strtoupper($_POST['identificacion']);
 
          $email      =  mb_strtoupper($_POST['mail_user']);
 
@@ -104,8 +105,8 @@ require "../coneccion.php" ;
 
 
      $codigo_registro = mb_strtoupper(md5($email.date('d-m-Y H:m:s')));
-      $query_insert=mysqli_query($conection,"INSERT INTO usuarios(nombres,email,password,codigo_registro,pais,ciudad,provincia,ip,user_in,url_img_upload)
-                                                    VALUES('$nombres','$email','$password1','$codigo_registro','$pais','$ciudad','$provincia','$direccion_ip','$user_in','$url') ");
+      $query_insert=mysqli_query($conection,"INSERT INTO usuarios(nombres,email,password,codigo_registro,pais,ciudad,provincia,ip,user_in,url_img_upload,numero_identidad)
+                                                    VALUES('$nombres','$email','$password1','$codigo_registro','$pais','$ciudad','$provincia','$direccion_ip','$user_in','$url','$identificacion') ");
 
 
       if ($query_insert) {
