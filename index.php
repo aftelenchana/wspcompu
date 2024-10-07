@@ -120,7 +120,7 @@ if (isset($_COOKIE['session_token'])) {
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
             <span>
-              UXOS
+              Ecuacompu
             </span>
           </a>
 
@@ -134,10 +134,11 @@ if (isset($_COOKIE['session_token'])) {
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="feature.html">FEATURE</a>
-                <a href="contact.html">CONTACT US</a>
+                <a href="/">Home</a>
+                <a href="about">Sobre Nosotros</a>
+                <a href="contact">Contactanos</a>
+                <a href="login">Entrar</a>
+                <a href="regist">Registrate</a>
               </div>
             </div>
           </div>
@@ -152,15 +153,15 @@ if (isset($_COOKIE['session_token'])) {
           <div class="col-md-7">
             <div class="detail-box">
               <h2>
-                best design
+                Sistema de Envio
               </h2>
               <h1>
-                Mobile <br />
-                applications
+                masivos <br />
+                mensajes
               </h1>
               <div>
                 <a href="">
-                  Read More
+                  Leer más
                 </a>
               </div>
             </div>

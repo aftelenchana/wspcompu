@@ -9,15 +9,31 @@ ob_start();
   }
 
 
-$protocol = empty($_SERVER['HTTPS']) ? 'http://' : 'https://';$domain = $_SERVER['HTTP_HOST'];$url = $protocol . $domain;
 
-$query_doccumentos =  mysqli_query($conection, "SELECT * FROM  usuarios  WHERE  url_admin  = '$domain'");
-$result_documentos = mysqli_fetch_array($query_doccumentos);
-$url_img_upload                     = $result_documentos['url_img_upload'];
-$img_facturacion         = $result_documentos['img_facturacion'];
-$empresa_sistema         = $result_documentos['nombre_empresa'];
+                         // Asumimos que la sesión está activa y tenemos la información del dominio
+                         $protocol = empty($_SERVER['HTTPS']) ? 'http://' : 'https://';
+                         $domain = $_SERVER['HTTP_HOST'];
 
-$img_sistema = $url_img_upload.'/home/img/uploads/'.$img_facturacion;
+                         $query_doccumentos =  mysqli_query($conection, "SELECT * FROM  usuarios  WHERE  url_admin  = '$domain'");
+                         $result_documentos = mysqli_fetch_array($query_doccumentos);
+
+                         if ($result_documentos) {
+                             $url_img_upload = $result_documentos['url_img_upload'];
+                             $img_facturacion = $result_documentos['img_facturacion'];
+                             $nombre_empresa = $result_documentos['nombre_empresa'];
+                             $celular        = $result_documentos['celular'];
+                             $email        = $result_documentos['email'];
+                             $facebook                = $result_documentos['facebook'];
+                             $instagram           = $result_documentos['instagram'];
+                             $whatsapp             = $result_documentos['whatsapp'];
+
+                             // Asegúrate de que esta ruta sea correcta y corresponda con la estructura de tu sistema de archivos
+                             $img_sistema = $url_img_upload.'/home/img/uploads/'.$img_facturacion;
+                         } else {
+                             // Si no hay resultados, tal vez quieras definir una imagen por defecto
+                           $img_sistema = '/img/guibis.png';
+                         }
+
 
  ?>
 
@@ -26,7 +42,7 @@ $img_sistema = $url_img_upload.'/home/img/uploads/'.$img_facturacion;
 <!DOCTYPE html>
 <html lang="es">
     <head>
-      <title>Entrar Sistema de Usuarios de <?php echo $empresa_sistema ?></title>
+      <title>Entrar </title>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
